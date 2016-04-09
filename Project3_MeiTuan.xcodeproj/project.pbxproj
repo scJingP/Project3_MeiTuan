@@ -15,6 +15,7 @@
 		044398141CB7D91300B27C80 /* MTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443980E1CB7D91300B27C80 /* MTMyViewController.m */; };
 		044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */; };
 		0443981B1CB7DBDE00B27C80 /* MTBusineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */; };
+		0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981D1CB89EAB00B27C80 /* MTLocationCell.m */; };
 		35FB6C601CB6B612002E4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C5F1CB6B612002E4A6A /* main.m */; };
 		35FB6DFE1CB6B635002E4A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C771CB6B635002E4A6A /* AppDelegate.m */; };
 		35FB6DFF1CB6B635002E4A6A /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C7B1CB6B635002E4A6A /* NSAttributedString+Addition.m */; };
@@ -325,6 +326,8 @@
 		044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMainTabBarController.m; sourceTree = "<group>"; };
 		044398191CB7DBDE00B27C80 /* MTBusineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBusineCell.h; sourceTree = "<group>"; };
 		0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBusineCell.m; sourceTree = "<group>"; };
+		0443981C1CB89EAB00B27C80 /* MTLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationCell.h; sourceTree = "<group>"; };
+		0443981D1CB89EAB00B27C80 /* MTLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationCell.m; sourceTree = "<group>"; };
 		35FB6C5B1CB6B612002E4A6A /* Project3_MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3_MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FB6C5F1CB6B612002E4A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35FB6C6F1CB6B612002E4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -758,6 +761,8 @@
 		044398181CB7DBDE00B27C80 /* Busine */ = {
 			isa = PBXGroup;
 			children = (
+				0443981C1CB89EAB00B27C80 /* MTLocationCell.h */,
+				0443981D1CB89EAB00B27C80 /* MTLocationCell.m */,
 				044398191CB7DBDE00B27C80 /* MTBusineCell.h */,
 				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
 			);
@@ -1818,6 +1823,7 @@
 				35FB6EFF1CB6B636002E4A6A /* UIImage+WebP.m in Sources */,
 				35FB6F011CB6B636002E4A6A /* UIImageView+WebCache.m in Sources */,
 				35FB6EF91CB6B636002E4A6A /* SDWebImageDownloaderOperation.m in Sources */,
+				0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */,
 				35FB6E011CB6B635002E4A6A /* NSTextAttachment+Addition.m in Sources */,
 				35FB6F0D1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */,
 				044398121CB7D91300B27C80 /* MTHomeViewController.m in Sources */,
