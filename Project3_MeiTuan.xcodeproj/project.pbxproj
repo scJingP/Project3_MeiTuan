@@ -863,10 +863,10 @@
 		35FB6C891CB6B635002E4A6A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				044398181CB7DBDE00B27C80 /* Busine */,
 				044398151CB7DBBA00B27C80 /* MTMainTabBarController.h */,
 				044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */,
 				35FB6C8A1CB6B635002E4A6A /* Main.storyboard */,
+				044398181CB7DBDE00B27C80 /* Busine */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1491,6 +1491,7 @@
 		35FB6C531CB6B612002E4A6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MT;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = tens03;
 				TargetAttributes = {
@@ -1970,6 +1971,7 @@
 			baseConfigurationReference = CFCF0C1D160F37444F79B104 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project3_MeiTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = Project3_MeiTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1984,6 +1986,7 @@
 			baseConfigurationReference = 929064C65592DF08984D54ED /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project3_MeiTuan/PrefixHeader.pch";
 				INFOPLIST_FILE = Project3_MeiTuan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;

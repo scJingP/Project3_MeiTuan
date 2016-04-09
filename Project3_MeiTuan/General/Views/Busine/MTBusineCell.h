@@ -10,12 +10,13 @@
 
 @interface MTBusineCell : UITableViewCell
 
-@property (strong, nonatomic) UIImageView *imageview;
-@property (strong, nonatomic) UILabel *namelabel;
-@property (strong, nonatomic) UILabel *catenamelabel;
-@property (strong, nonatomic) UILabel *areanamelabel;
-@property (strong, nonatomic) UILabel *marknumber;
-@property (strong, nonatomic) UILabel *distancelabel;
+@property (strong, nonatomic) UIImageView *imageview;  //图片
+@property (strong, nonatomic) UIImageView *starimageview;  //星星
+@property (strong, nonatomic) UILabel *namelabel;  //店名
+@property (strong, nonatomic) UILabel *catenamelabel;  //类型
+@property (strong, nonatomic) UILabel *areanamelabel;  //附近地址
+@property (strong, nonatomic) UILabel *marknumber;  //评价
+@property (strong, nonatomic) UILabel *distancelabel;  //距离
 
 //加载视图
 -(void)initView;
