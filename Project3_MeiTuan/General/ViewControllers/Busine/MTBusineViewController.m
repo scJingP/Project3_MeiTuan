@@ -8,6 +8,7 @@
 
 #import "MTBusineViewController.h"
 #import "MTBusineCell.h"
+<<<<<<< HEAD
 #import "MTLocationCell.h"
 #import "MTHeadView.h"
 #import "MTHeadViewButton.h"
@@ -20,6 +21,13 @@ static NSString *Location = @"location";
 
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
 @property (strong, nonatomic) MTHeadView *headview;
+=======
+
+static NSString *Busine = @"busine";
+@interface MTBusineViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableview;
+>>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
 
 @end
 
@@ -27,6 +35,7 @@ static NSString *Location = @"location";
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+<<<<<<< HEAD
     [self.view addSubview:self.headview];  //头视图
     [self setupHeadviewLayout];
     self.tableview.delegate = self;
@@ -99,6 +108,35 @@ static NSString *Location = @"location";
         _headview.backgroundColor = [UIColor colorWithR:247 g:247 b:247 alpha:1];
     }
     return _headview;
+=======
+    self.tableview.delegate = self;
+    self.tableview.dataSource = self;
+    [self.tableview registerClass:[MTBusineCell class] forCellReuseIdentifier:Busine];
+}
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 2;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    MTBusineCell *cell = [tableView dequeueReusableCellWithIdentifier:Busine forIndexPath:indexPath];
+    cell.imageview.backgroundColor = [UIColor blackColor];
+    cell.namelabel.text = [@(indexPath.row)stringValue];
+    cell.catenamelabel.text = [@(indexPath.row)stringValue];
+    cell.areanamelabel.text = [@(indexPath.row)stringValue];
+    cell.marknumber.text = [@(indexPath.row)stringValue];
+    cell.distancelabel.text= [@(indexPath.row)stringValue];
+    return cell;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 100;
+}
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor orangeColor];
+    return view;
+>>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
 }
 
 

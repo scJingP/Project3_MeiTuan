@@ -18,6 +18,7 @@
 #import "LWURLString.h"
 #import "LWNotifictionMacro.h"
 #import "LWStoryboardMacro.h"
+#import "LWCustomCell.h"
 
 // Categories
 #import "UIColor+Addition.h"

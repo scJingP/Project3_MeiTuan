@@ -18,11 +18,19 @@
     {
       "idiom" : "ipad",
       "filename" : "AppIcon29x29~ipad.png",
+<<<<<<< HEAD
+=======
+      "unassigned" : true,
+>>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
       "scale" : "1x"
     },
     {
       "idiom" : "ipad",
       "filename" : "AppIcon29x29@2x~ipad.png",
+<<<<<<< HEAD
+=======
+      "unassigned" : true,
+>>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
       "scale" : "2x"
     }
   ],
