@@ -420,14 +420,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-zV-rdK">
-                                <rect key="frame" x="0.0" y="120" width="320" height="399"/>
+                                <rect key="frame" x="0.0" y="110" width="320" height="409"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ndN-hR-qZ4" firstAttribute="top" secondItem="GZ7-zV-rdK" secondAttribute="bottom" id="7OS-bv-mkw"/>
-                            <constraint firstItem="GZ7-zV-rdK" firstAttribute="top" secondItem="hGc-3H-0Pk" secondAttribute="bottom" constant="100" id="eeT-Nd-3Hf"/>
+                            <constraint firstItem="GZ7-zV-rdK" firstAttribute="top" secondItem="hGc-3H-0Pk" secondAttribute="bottom" constant="90" id="eeT-Nd-3Hf"/>
                             <constraint firstAttribute="trailing" secondItem="GZ7-zV-rdK" secondAttribute="trailing" id="kKb-HL-fWH"/>
                             <constraint firstItem="GZ7-zV-rdK" firstAttribute="leading" secondItem="Nnf-LZ-cFR" secondAttribute="leading" id="yD1-ZU-1ga"/>
                         </constraints>

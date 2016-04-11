@@ -11,12 +11,21 @@
     },
     {
       "idiom" : "universal",
+<<<<<<< HEAD
       "filename" : "icon_recommend_locate_refresh@3x.png",
+=======
+>>>>>>> 23276d7359a478d77d66d23bbbc84590d35495a4
       "scale" : "3x"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
+<<<<<<< HEAD
+=======
+  },
+  "properties" : {
+    "template-rendering-intent" : "original"
+>>>>>>> 23276d7359a478d77d66d23bbbc84590d35495a4
   }
 }

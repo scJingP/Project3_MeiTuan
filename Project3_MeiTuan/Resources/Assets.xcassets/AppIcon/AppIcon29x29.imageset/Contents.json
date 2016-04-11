@@ -18,11 +18,13 @@
     {
       "idiom" : "ipad",
       "filename" : "AppIcon29x29~ipad.png",
+      "unassigned" : true,
       "scale" : "1x"
     },
     {
       "idiom" : "ipad",
       "filename" : "AppIcon29x29@2x~ipad.png",
+      "unassigned" : true,
       "scale" : "2x"
     }
   ],
