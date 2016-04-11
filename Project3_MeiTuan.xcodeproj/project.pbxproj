@@ -10,20 +10,20 @@
 		0443980F1CB7D91300B27C80 /* MTBassNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398001CB7D91300B27C80 /* MTBassNavigationController.m */; };
 		044398101CB7D91300B27C80 /* MTBassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398021CB7D91300B27C80 /* MTBassViewController.m */; };
 		044398111CB7D91300B27C80 /* MTBusineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398051CB7D91300B27C80 /* MTBusineViewController.m */; };
-		044398121CB7D91300B27C80 /* MTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398081CB7D91300B27C80 /* MTHomeViewController.m */; };
-		044398131CB7D91300B27C80 /* MTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443980B1CB7D91300B27C80 /* MTMoreViewController.m */; };
-		044398141CB7D91300B27C80 /* MTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443980E1CB7D91300B27C80 /* MTMyViewController.m */; };
 		044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */; };
 		0443981B1CB7DBDE00B27C80 /* MTBusineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */; };
 		0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981D1CB89EAB00B27C80 /* MTLocationCell.m */; };
 		044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398201CB8A3AF00B27C80 /* MTHeadView.m */; };
 		044398241CB8A8CD00B27C80 /* MTHeadViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */; };
+		049080181CBB465D00F42793 /* LWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049080171CBB465D00F42793 /* LWBaseViewController.m */; };
+		0496595D1CBB4AF800E0707E /* MTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049659591CBB4AF800E0707E /* MTMoreViewController.m */; };
+		0496595E1CBB4AF800E0707E /* MTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496595C1CBB4AF800E0707E /* MTMyViewController.m */; };
+		049659621CBB4B4500E0707E /* MTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049659611CBB4B4500E0707E /* MTHomeViewController.m */; };
 		3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2211CB9A54200FF5FDC /* about_praise@2x.png */; };
 		3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2221CB9A54200FF5FDC /* leftImageTest.png */; };
 		3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */; };
 		350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */; };
 		350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */; };
-		356707961CB9060D005AB1BE /* LWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356707951CB9060D005AB1BE /* LWBaseViewController.m */; };
 		35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */; };
 		35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */; };
 		35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */; };
@@ -328,12 +328,6 @@
 		044398021CB7D91300B27C80 /* MTBassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBassViewController.m; sourceTree = "<group>"; };
 		044398041CB7D91300B27C80 /* MTBusineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBusineViewController.h; sourceTree = "<group>"; };
 		044398051CB7D91300B27C80 /* MTBusineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBusineViewController.m; sourceTree = "<group>"; };
-		044398071CB7D91300B27C80 /* MTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeViewController.h; sourceTree = "<group>"; };
-		044398081CB7D91300B27C80 /* MTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeViewController.m; sourceTree = "<group>"; };
-		0443980A1CB7D91300B27C80 /* MTMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreViewController.h; sourceTree = "<group>"; };
-		0443980B1CB7D91300B27C80 /* MTMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreViewController.m; sourceTree = "<group>"; };
-		0443980D1CB7D91300B27C80 /* MTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyViewController.h; sourceTree = "<group>"; };
-		0443980E1CB7D91300B27C80 /* MTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMyViewController.m; sourceTree = "<group>"; };
 		044398151CB7DBBA00B27C80 /* MTMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMainTabBarController.h; sourceTree = "<group>"; };
 		044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMainTabBarController.m; sourceTree = "<group>"; };
 		044398191CB7DBDE00B27C80 /* MTBusineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBusineCell.h; sourceTree = "<group>"; };
@@ -344,6 +338,14 @@
 		044398201CB8A3AF00B27C80 /* MTHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadView.m; sourceTree = "<group>"; };
 		044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHeadViewButton.h; sourceTree = "<group>"; };
 		044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadViewButton.m; sourceTree = "<group>"; };
+		049080161CBB465D00F42793 /* LWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWBaseViewController.h; path = Project3_MeiTuan/General/ViewControllers/BassClass/LWBaseViewController.h; sourceTree = SOURCE_ROOT; };
+		049080171CBB465D00F42793 /* LWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWBaseViewController.m; path = Project3_MeiTuan/General/ViewControllers/BassClass/LWBaseViewController.m; sourceTree = SOURCE_ROOT; };
+		049659581CBB4AF800E0707E /* MTMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreViewController.h; sourceTree = "<group>"; };
+		049659591CBB4AF800E0707E /* MTMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreViewController.m; sourceTree = "<group>"; };
+		0496595B1CBB4AF800E0707E /* MTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyViewController.h; sourceTree = "<group>"; };
+		0496595C1CBB4AF800E0707E /* MTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMyViewController.m; sourceTree = "<group>"; };
+		049659601CBB4B4500E0707E /* MTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeViewController.h; sourceTree = "<group>"; };
+		049659611CBB4B4500E0707E /* MTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeViewController.m; sourceTree = "<group>"; };
 		3509E2211CB9A54200FF5FDC /* about_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_praise@2x.png"; sourceTree = "<group>"; };
 		3509E2221CB9A54200FF5FDC /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
 		3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
@@ -352,8 +354,6 @@
 		350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_ButtonModal.m; sourceTree = "<group>"; };
 		350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
 		350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
-		356707941CB9060D005AB1BE /* LWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWBaseViewController.h; sourceTree = "<group>"; };
-		356707951CB9060D005AB1BE /* LWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWBaseViewController.m; sourceTree = "<group>"; };
 		356707971CB92E3E005AB1BE /* LWCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCustomCell.h; sourceTree = "<group>"; };
 		35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
 		35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
@@ -748,8 +748,8 @@
 				044398001CB7D91300B27C80 /* MTBassNavigationController.m */,
 				044398011CB7D91300B27C80 /* MTBassViewController.h */,
 				044398021CB7D91300B27C80 /* MTBassViewController.m */,
-				356707941CB9060D005AB1BE /* LWBaseViewController.h */,
-				356707951CB9060D005AB1BE /* LWBaseViewController.m */,
+				049080161CBB465D00F42793 /* LWBaseViewController.h */,
+				049080171CBB465D00F42793 /* LWBaseViewController.m */,
 			);
 			name = BassClass;
 			path = ../../../../Project3_MeiTuan/Project3_MeiTuan/General/ViewControllers/BassClass;
@@ -763,36 +763,6 @@
 			);
 			name = Busine;
 			path = ../../../../Project3_MeiTuan/Project3_MeiTuan/General/ViewControllers/Busine;
-			sourceTree = "<group>";
-		};
-		044398061CB7D91300B27C80 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				044398071CB7D91300B27C80 /* MTHomeViewController.h */,
-				044398081CB7D91300B27C80 /* MTHomeViewController.m */,
-			);
-			name = Home;
-			path = ../../../../Project3_MeiTuan/Project3_MeiTuan/General/ViewControllers/Home;
-			sourceTree = "<group>";
-		};
-		044398091CB7D91300B27C80 /* More */ = {
-			isa = PBXGroup;
-			children = (
-				0443980A1CB7D91300B27C80 /* MTMoreViewController.h */,
-				0443980B1CB7D91300B27C80 /* MTMoreViewController.m */,
-			);
-			name = More;
-			path = ../../../../Project3_MeiTuan/Project3_MeiTuan/General/ViewControllers/More;
-			sourceTree = "<group>";
-		};
-		0443980C1CB7D91300B27C80 /* My */ = {
-			isa = PBXGroup;
-			children = (
-				0443980D1CB7D91300B27C80 /* MTMyViewController.h */,
-				0443980E1CB7D91300B27C80 /* MTMyViewController.m */,
-			);
-			name = My;
-			path = ../../../../Project3_MeiTuan/Project3_MeiTuan/General/ViewControllers/My;
 			sourceTree = "<group>";
 		};
 		044398181CB7DBDE00B27C80 /* Busine */ = {
@@ -810,6 +780,33 @@
 				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
 			);
 			path = Busine;
+			sourceTree = "<group>";
+		};
+		049659571CBB4AF800E0707E /* More */ = {
+			isa = PBXGroup;
+			children = (
+				049659581CBB4AF800E0707E /* MTMoreViewController.h */,
+				049659591CBB4AF800E0707E /* MTMoreViewController.m */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		0496595A1CBB4AF800E0707E /* My */ = {
+			isa = PBXGroup;
+			children = (
+				0496595B1CBB4AF800E0707E /* MTMyViewController.h */,
+				0496595C1CBB4AF800E0707E /* MTMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		0496595F1CBB4B4500E0707E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				049659601CBB4B4500E0707E /* MTHomeViewController.h */,
+				049659611CBB4B4500E0707E /* MTHomeViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		3509E24B1CB9A65B00FF5FDC /* Home */ = {
@@ -940,11 +937,11 @@
 		35FB6C881CB6B635002E4A6A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0496595F1CBB4B4500E0707E /* Home */,
+				049659571CBB4AF800E0707E /* More */,
+				0496595A1CBB4AF800E0707E /* My */,
 				044397FE1CB7D91300B27C80 /* BassClass */,
 				044398031CB7D91300B27C80 /* Busine */,
-				044398061CB7D91300B27C80 /* Home */,
-				044398091CB7D91300B27C80 /* More */,
-				0443980C1CB7D91300B27C80 /* My */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1911,6 +1908,7 @@
 				35FB6F0F1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				35FB6F101CB6B636002E4A6A /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */,
+				0496595D1CBB4AF800E0707E /* MTMoreViewController.m in Sources */,
 				35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */,
 				35FB6EFB1CB6B636002E4A6A /* SDWebImagePrefetcher.m in Sources */,
 				35FB6E051CB6B635002E4A6A /* UIView+Margin.m in Sources */,
@@ -1921,7 +1919,6 @@
 				0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */,
 				35FB6E011CB6B635002E4A6A /* NSTextAttachment+Addition.m in Sources */,
 				35FB6F0D1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */,
-				044398121CB7D91300B27C80 /* MTHomeViewController.m in Sources */,
 				0443980F1CB7D91300B27C80 /* MTBassNavigationController.m in Sources */,
 				35FB6F001CB6B636002E4A6A /* UIImageView+HighlightedWebCache.m in Sources */,
 				35FB6F191CB6B636002E4A6A /* ZLPhotoPickerCollectionView.m in Sources */,
@@ -1931,12 +1928,11 @@
 				35FB6EF71CB6B636002E4A6A /* SDWebImageDecoder.m in Sources */,
 				35FB6F071CB6B636002E4A6A /* ZLCameraView.m in Sources */,
 				35FB6F151CB6B636002E4A6A /* ZLNavigationController.m in Sources */,
-				044398131CB7D91300B27C80 /* MTMoreViewController.m in Sources */,
-				044398141CB7D91300B27C80 /* MTMyViewController.m in Sources */,
 				350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */,
 				35FB6EF41CB6B636002E4A6A /* NSData+ImageContentType.m in Sources */,
 				044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */,
 				35FB6E071CB6B635002E4A6A /* LWConst.m in Sources */,
+				049659621CBB4B4500E0707E /* MTHomeViewController.m in Sources */,
 				35FB6F111CB6B636002E4A6A /* ZLPhotoAssets.m in Sources */,
 				35FB6F171CB6B636002E4A6A /* ZLPhotoPickerGroupViewController.m in Sources */,
 				35FB6F0B1CB6B636002E4A6A /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
@@ -1951,6 +1947,7 @@
 				35FB6EF21CB6B636002E4A6A /* LWPalacePictureView.m in Sources */,
 				35FB6EFA1CB6B636002E4A6A /* SDWebImageManager.m in Sources */,
 				35FB6F021CB6B636002E4A6A /* UIView+WebCacheOperation.m in Sources */,
+				0496595E1CBB4AF800E0707E /* MTMyViewController.m in Sources */,
 				35FB6E0C1CB6B635002E4A6A /* DACircularProgressView.m in Sources */,
 				35FB6E001CB6B635002E4A6A /* NSString+Addition.m in Sources */,
 				35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */,
@@ -1961,7 +1958,6 @@
 				044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */,
 				35F032C51CBB3B2F00671A6D /* MTMyTableViewCell.m in Sources */,
 				35FB6F1A1CB6B636002E4A6A /* ZLPhotoPickerCollectionViewCell.m in Sources */,
-				356707961CB9060D005AB1BE /* LWBaseViewController.m in Sources */,
 				35FB6EFD1CB6B636002E4A6A /* UIImage+GIF.m in Sources */,
 				350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */,
 				35FB6E021CB6B635002E4A6A /* UIColor+Addition.m in Sources */,
@@ -1981,6 +1977,7 @@
 				044398111CB7D91300B27C80 /* MTBusineViewController.m in Sources */,
 				35FB6EF61CB6B636002E4A6A /* SDWebImageCompat.m in Sources */,
 				35FB6F1D1CB6B636002E4A6A /* ZLPhotoPickerImageView.m in Sources */,
+				049080181CBB465D00F42793 /* LWBaseViewController.m in Sources */,
 				35FB6F131CB6B636002E4A6A /* ZLPhotoPickerGroup.m in Sources */,
 				0443981B1CB7DBDE00B27C80 /* MTBusineCell.m in Sources */,
 				35FB6EEF1CB6B636002E4A6A /* LWEmotionModel.m in Sources */,
