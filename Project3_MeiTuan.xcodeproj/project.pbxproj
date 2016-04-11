@@ -18,6 +18,7 @@
 		0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981D1CB89EAB00B27C80 /* MTLocationCell.m */; };
 		044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398201CB8A3AF00B27C80 /* MTHeadView.m */; };
 		044398241CB8A8CD00B27C80 /* MTHeadViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */; };
+		0443982A1CB91E6200B27C80 /* MTsortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398291CB91E6200B27C80 /* MTsortTableViewCell.m */; };
 		35FB6C601CB6B612002E4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C5F1CB6B612002E4A6A /* main.m */; };
 		35FB6DFE1CB6B635002E4A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C771CB6B635002E4A6A /* AppDelegate.m */; };
 		35FB6DFF1CB6B635002E4A6A /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C7B1CB6B635002E4A6A /* NSAttributedString+Addition.m */; };
@@ -334,6 +335,8 @@
 		044398201CB8A3AF00B27C80 /* MTHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadView.m; sourceTree = "<group>"; };
 		044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHeadViewButton.h; sourceTree = "<group>"; };
 		044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadViewButton.m; sourceTree = "<group>"; };
+		044398281CB91E6200B27C80 /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
+		044398291CB91E6200B27C80 /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
 		35FB6C5B1CB6B612002E4A6A /* Project3_MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3_MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FB6C5F1CB6B612002E4A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35FB6C6F1CB6B612002E4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -773,6 +776,8 @@
 				044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */,
 				0443981C1CB89EAB00B27C80 /* MTLocationCell.h */,
 				0443981D1CB89EAB00B27C80 /* MTLocationCell.m */,
+				044398281CB91E6200B27C80 /* MTsortTableViewCell.h */,
+				044398291CB91E6200B27C80 /* MTsortTableViewCell.m */,
 				044398191CB7DBDE00B27C80 /* MTBusineCell.h */,
 				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
 			);
@@ -1847,6 +1852,7 @@
 				35FB6F071CB6B636002E4A6A /* ZLCameraView.m in Sources */,
 				35FB6F151CB6B636002E4A6A /* ZLNavigationController.m in Sources */,
 				044398131CB7D91300B27C80 /* MTMoreViewController.m in Sources */,
+				0443982A1CB91E6200B27C80 /* MTsortTableViewCell.m in Sources */,
 				044398141CB7D91300B27C80 /* MTMyViewController.m in Sources */,
 				35FB6EF41CB6B636002E4A6A /* NSData+ImageContentType.m in Sources */,
 				044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */,

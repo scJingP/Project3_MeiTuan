@@ -18,6 +18,8 @@
 @property (strong, nonatomic) MTHeadViewButton *capacitysortbutton;  //排序
 @property (strong ,nonatomic) MTHeadViewButton *locationbutton;  //定位
 @property (strong, nonatomic) MTHeadViewButton *searchbutton;  //搜索
+@property (strong, nonatomic) UIView *contanierview;  //容器
+@property (strong, nonatomic) UITableView *sorttableview;  //分类表格
 @property (strong, nonatomic) UIView *greenline;  //绿线
 
 @end

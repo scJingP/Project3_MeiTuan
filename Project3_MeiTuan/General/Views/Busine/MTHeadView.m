@@ -7,11 +7,12 @@
 //
 
 #import "MTHeadView.h"
+#import "MTsortTableViewCell.h"
 #import <Masonry.h>
 
-@interface MTHeadView (){
+static NSString *SortTableViewCell = @"sorttableviewcell";
+@interface MTHeadView ()<UITableViewDataSource,UITableViewDelegate>{
     CGFloat lineX;
-    BOOL isSelectLeftButton;
 }
 
 @end
@@ -21,7 +22,6 @@
     self = [super init];
     if (self) {
         lineX = 13;
-        isSelectLeftButton = YES;
         [self initSubview];
         [self setupAutoLayout];
     }
@@ -88,7 +88,28 @@
         [self layoutIfNeeded];
     }];
 }
-#pragma mark - 更新布局
+-(void)sortButtonOnclike:(MTHeadViewButton *)sender{
+//    if (sender.selected) {
+        [self addSubview:self.contanierview];
+        [self.contanierview addSubview:self.sorttableview];
+        [self.contanierview mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.trailing.equalTo(self);
+            make.top.equalTo(self.allclassbutton.mas_bottom);
+            make.height.equalTo(@370);
+        }];
+        [self.sorttableview mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.leading.top.equalTo(self.contanierview);
+            make.height.equalTo(self.contanierview);
+            make.width.equalTo(@160);
+        }];
+//    }else{
+//        self.contanierview.hidden = YES;
+//        self.sorttableview.hidden = YES;
+//    }
+    
+//    sender.selected = !sender.selected;
+}
+#pragma mark - 更新绿线的布局
 -(void)updateConstraints{
     if (self.greenline.superview) {
         [self.greenline mas_updateConstraints:^(MASConstraintMaker *make) {
@@ -96,6 +117,19 @@
         }];
     }
     [super updateConstraints];
+}
+
+#pragma mark -UITableViewDataSource&&UITableViewDelegate
+//返回多少个Cell
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 2;
+}
+//创建Cell
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    MTsortTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SortTableViewCell forIndexPath:indexPath];
+    cell.imageView.backgroundColor = [UIColor blackColor];
+    cell.textlabel.text = [@(indexPath.row) stringValue];
+    return cell;
 }
 
 #pragma mark - Custom
@@ -133,6 +167,7 @@
         [_allclassbutton setTitle:@"全部分类" forState:UIControlStateNormal];
         [_allclassbutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
         _allclassbutton.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_allclassbutton addTarget:self action:@selector(sortButtonOnclike:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _allclassbutton;
 }
@@ -184,6 +219,21 @@
         _searchbutton.tag = 6;
     }
     return _searchbutton;
+}
+-(UIView *)contanierview{
+    if (_contanierview == nil) {
+        _contanierview = [[UIView alloc] init];
+        _contanierview.backgroundColor = [UIColor colorWithR:239 g:239 b:239 alpha:1];
+    }
+    return _contanierview;
+}
+-(UITableView *)sorttableview{
+    if (_sorttableview == nil) {
+        _sorttableview = [[UITableView alloc] init];
+        [_sorttableview registerClass:[MTsortTableViewCell class] forCellReuseIdentifier:SortTableViewCell];
+
+    }
+    return _sorttableview;
 }
 
 
