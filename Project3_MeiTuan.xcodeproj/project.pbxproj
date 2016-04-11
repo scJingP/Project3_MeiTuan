@@ -21,9 +21,8 @@
 		3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2211CB9A54200FF5FDC /* about_praise@2x.png */; };
 		3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2221CB9A54200FF5FDC /* leftImageTest.png */; };
 		3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */; };
-		3509E2521CB9A73200FF5FDC /* MTHomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E2511CB9A73200FF5FDC /* MTHomeButton.m */; };
-		3509E2551CB9A78A00FF5FDC /* MTHomeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E2541CB9A78A00FF5FDC /* MTHomeCollectionCell.m */; };
-		3509E2581CB9A83200FF5FDC /* MTHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E2571CB9A83200FF5FDC /* MTHomeView.m */; };
+		35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */; };
+		35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */; };
 		35FB6C601CB6B612002E4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C5F1CB6B612002E4A6A /* main.m */; };
 		35FB6DFE1CB6B635002E4A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C771CB6B635002E4A6A /* AppDelegate.m */; };
 		35FB6DFF1CB6B635002E4A6A /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C7B1CB6B635002E4A6A /* NSAttributedString+Addition.m */; };
@@ -344,12 +343,10 @@
 		3509E2221CB9A54200FF5FDC /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
 		3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
 		3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeTableCustomCell.m; sourceTree = "<group>"; };
-		3509E2501CB9A73200FF5FDC /* MTHomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeButton.h; sourceTree = "<group>"; };
-		3509E2511CB9A73200FF5FDC /* MTHomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeButton.m; sourceTree = "<group>"; };
-		3509E2531CB9A78A00FF5FDC /* MTHomeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeCollectionCell.h; sourceTree = "<group>"; };
-		3509E2541CB9A78A00FF5FDC /* MTHomeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeCollectionCell.m; sourceTree = "<group>"; };
-		3509E2561CB9A83200FF5FDC /* MTHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeView.h; sourceTree = "<group>"; };
-		3509E2571CB9A83200FF5FDC /* MTHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeView.m; sourceTree = "<group>"; };
+		35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
+		35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
+		35EC8FDB1CBA9E8E0055283F /* MTCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomButton.h; sourceTree = "<group>"; };
+		35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomButton.m; sourceTree = "<group>"; };
 		35FB6C5B1CB6B612002E4A6A /* Project3_MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3_MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FB6C5F1CB6B612002E4A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35FB6C6F1CB6B612002E4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -808,12 +805,10 @@
 		3509E24C1CB9A65B00FF5FDC /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				3509E2501CB9A73200FF5FDC /* MTHomeButton.h */,
-				3509E2511CB9A73200FF5FDC /* MTHomeButton.m */,
-				3509E2531CB9A78A00FF5FDC /* MTHomeCollectionCell.h */,
-				3509E2541CB9A78A00FF5FDC /* MTHomeCollectionCell.m */,
-				3509E2561CB9A83200FF5FDC /* MTHomeView.h */,
-				3509E2571CB9A83200FF5FDC /* MTHomeView.m */,
+				35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */,
+				35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */,
+				35EC8FDB1CBA9E8E0055283F /* MTCustomButton.h */,
+				35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -1873,10 +1868,12 @@
 				35FB6F0F1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				35FB6F101CB6B636002E4A6A /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */,
+				35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */,
 				35FB6EFB1CB6B636002E4A6A /* SDWebImagePrefetcher.m in Sources */,
 				35FB6E051CB6B635002E4A6A /* UIView+Margin.m in Sources */,
 				35FB6EFF1CB6B636002E4A6A /* UIImage+WebP.m in Sources */,
 				35FB6F011CB6B636002E4A6A /* UIImageView+WebCache.m in Sources */,
+				35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */,
 				35FB6EF91CB6B636002E4A6A /* SDWebImageDownloaderOperation.m in Sources */,
 				0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */,
 				35FB6E011CB6B635002E4A6A /* NSTextAttachment+Addition.m in Sources */,
@@ -1900,7 +1897,6 @@
 				35FB6F171CB6B636002E4A6A /* ZLPhotoPickerGroupViewController.m in Sources */,
 				35FB6F0B1CB6B636002E4A6A /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
 				044398241CB8A8CD00B27C80 /* MTHeadViewButton.m in Sources */,
-				3509E2551CB9A78A00FF5FDC /* MTHomeCollectionCell.m in Sources */,
 				35FB6F161CB6B636002E4A6A /* ZLPhotoPickerAssetsViewController.m in Sources */,
 				35FB6E0D1CB6B635002E4A6A /* DALabeledCircularProgressView.m in Sources */,
 				044398101CB7D91300B27C80 /* MTBassViewController.m in Sources */,
@@ -1931,12 +1927,10 @@
 				35FB6F081CB6B636002E4A6A /* ZLCameraViewController.m in Sources */,
 				35FB6EFE1CB6B636002E4A6A /* UIImage+MultiFormat.m in Sources */,
 				35FB6E041CB6B635002E4A6A /* UITextView+Addition.m in Sources */,
-				3509E2521CB9A73200FF5FDC /* MTHomeButton.m in Sources */,
 				35FB6F091CB6B636002E4A6A /* ZLPhotoPickerBrowserPhoto.m in Sources */,
 				35FB6F181CB6B636002E4A6A /* ZLPhotoPickerViewController.m in Sources */,
 				35FB6F031CB6B636002E4A6A /* UIImage+ZLPhotoLib.m in Sources */,
 				044398111CB7D91300B27C80 /* MTBusineViewController.m in Sources */,
-				3509E2581CB9A83200FF5FDC /* MTHomeView.m in Sources */,
 				35FB6EF61CB6B636002E4A6A /* SDWebImageCompat.m in Sources */,
 				35FB6F1D1CB6B636002E4A6A /* ZLPhotoPickerImageView.m in Sources */,
 				35FB6F131CB6B636002E4A6A /* ZLPhotoPickerGroup.m in Sources */,

@@ -1,5 +1,5 @@
 //
-//  MTHomeButton.h
+//  MTCustomButton.h
 //  Project3_MeiTuan
 //
 //  Created by tens03 on 16/4/10.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTHomeButton : UIButton
-///.缩略图
-@property(strong, nonatomic)UIImageView *iconImageView;
-///.描述 功能
+@interface MTCustomButton : UIButton
+@property(strong, nonatomic)UIImageView *iconImage;
 @property(strong, nonatomic)UILabel *functionLabel;
-
 @end

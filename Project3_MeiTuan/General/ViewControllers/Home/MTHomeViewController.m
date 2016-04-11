@@ -9,7 +9,7 @@
 
 #import "MTHomeViewController.h"
 #import "MTHomeTableCustomCell.h"
-#import "MTHomeView.h"
+#import "MTHomeHeadView.h"
 #import <Masonry.h>
 
 static NSString *identify = @"MTHomeTableCustomCell";
@@ -17,9 +17,13 @@ static NSString *identify = @"MTHomeTableCustomCell";
 @interface MTHomeViewController()
 <UITableViewDataSource, UITableViewDelegate>
 
+@property(strong, nonatomic)UIButton *locationButton;
+@property(strong, nonatomic)UITextView *textView;
+@property(strong, nonatomic)UILabel *placeHolder;
 ///主页大量数据的 tableView
 @property(strong, nonatomic)UITableView *mainTableView;
-@property(strong, nonatomic)MTHomeView *headHomeView;
+@property(strong, nonatomic)MTHomeHeadView *headHomeheadView;
+
 @end
 
 @implementation MTHomeViewController
@@ -27,21 +31,32 @@ static NSString *identify = @"MTHomeTableCustomCell";
 -(void)viewDidLoad{
     [self.mainTableView registerClass:[MTHomeTableCustomCell class] forCellReuseIdentifier:identify];
     
-    [self.view addSubview:self.headHomeView];
+//    [self.view addSubview:self.headHomeheadView];
+    
+    [self.view addSubview:self.textView];
+    self.textView.frame = CGRectMake(30, 5, 260, 15);
+    
+    [self.view addSubview:self.placeHolder];
+    self.placeHolder.frame = CGRectMake(35, 5 + 3, 260, 12);
+    
     [self.view addSubview:self.mainTableView];
+    
+    UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 20, 320, 160)];
+    self.mainTableView.tableHeaderView = headView ;
+    [headView addSubview:self.headHomeheadView];
     
     [self autoLayer];
 }
 #pragma mark - 首页 自动布局
 -(void)autoLayer{
-    [self.headHomeView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.trailing.mas_equalTo(self.view);
-        make.width.mas_equalTo(320);
-        make.height.mas_equalTo(160);
-    }];
+//    [self.headHomeheadView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.trailing.mas_equalTo(self.view);
+//        make.width.mas_equalTo(320);
+//        make.height.mas_equalTo(160);
+//    }];
     
     [self.mainTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.view).offset(161);
+        make.top.mas_equalTo(self.view).offset(10);
         make.leading.trailing.bottom.mas_equalTo(self.view);
     }];
 }
@@ -67,18 +82,20 @@ static NSString *identify = @"MTHomeTableCustomCell";
     
     return cell;
 }
-///.cell 点击事件
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"%ld %ld", indexPath.section, indexPath.row);
+///tableView header
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+//UIView *head = self.headHomeheadView;
+//    head.frame = CGRectMake(0, 10, 320, 160);
+    
+    return self.headHomeheadView;
 }
 #pragma mark get
--(MTHomeView *)headHomeView{
-    if (!_headHomeView) {
-        _headHomeView = [[MTHomeView alloc]initWithFrame:CGRectMake(0, 0, 320, 160)];
-        _headHomeView.height = 160;
-        _headHomeView.width = 320;
+-(MTHomeHeadView *)headHomeheadView{
+    if (!_headHomeheadView) {
+        _headHomeheadView = [[MTHomeHeadView alloc]init];
+//        _headHomeheadView.frame = CGRectMake(0, 0, 320, 160);
     }
-    return _headHomeView;
+    return _headHomeheadView;
 }
 ///主页大量数据的 tableView get
 -(UITableView *)mainTableView{
@@ -89,5 +106,20 @@ static NSString *identify = @"MTHomeTableCustomCell";
     }
     return _mainTableView;
 }
-
+-(UITextView *)textView{
+    if (!_textView) {
+        _textView = [[UITextView alloc]init];
+//        _textView.delegate = self;
+    }
+    return _textView;
+}
+-(UILabel *)placeHolder{
+    if (!_placeHolder) {
+        _placeHolder = [[UILabel alloc]init];
+        _placeHolder . text = @"请输入商家、分类或商圈";
+        _placeHolder.font = [UIFont systemFontOfSize:11];
+        _placeHolder.textColor = [UIColor colorWithR:180 g:180 b:180 alpha:1];
+    }
+    return _placeHolder;
+}
 @end
