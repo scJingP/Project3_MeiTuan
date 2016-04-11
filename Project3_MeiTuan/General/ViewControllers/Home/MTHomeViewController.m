@@ -76,9 +76,8 @@ static NSString *identify = @"MTHomeTableCustomCell";
     MTHomeTableCustomCell *cell  = [tableView dequeueReusableCellWithIdentifier:identify];
     
     if(cell){
-        ;
+        
     }
-    
     
     return cell;
 }

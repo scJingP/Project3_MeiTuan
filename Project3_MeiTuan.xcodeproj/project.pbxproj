@@ -16,20 +16,18 @@
 		044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */; };
 		0443981B1CB7DBDE00B27C80 /* MTBusineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */; };
 		0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0443981D1CB89EAB00B27C80 /* MTLocationCell.m */; };
-<<<<<<< HEAD
-		356707961CB9060D005AB1BE /* LWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356707951CB9060D005AB1BE /* LWBaseViewController.m */; };
-		3567079A1CB93004005AB1BE /* MTMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 356707991CB93004005AB1BE /* MTMyTableViewCell.m */; };
-		3593F9201CBAA972006BD88B /* MTMoreCell_ButtonModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593F91F1CBAA972006BD88B /* MTMoreCell_ButtonModal.m */; };
-		3593F9231CBAA982006BD88B /* MTMoreCell_TextModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593F9221CBAA982006BD88B /* MTMoreCell_TextModal.m */; };
-=======
 		044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398201CB8A3AF00B27C80 /* MTHeadView.m */; };
 		044398241CB8A8CD00B27C80 /* MTHeadViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */; };
-
 		3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2211CB9A54200FF5FDC /* about_praise@2x.png */; };
 		3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2221CB9A54200FF5FDC /* leftImageTest.png */; };
 		3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */; };
+		350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */; };
+		350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */; };
+		356707961CB9060D005AB1BE /* LWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356707951CB9060D005AB1BE /* LWBaseViewController.m */; };
 		35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */; };
 		35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */; };
+		35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */; };
+		35F032C51CBB3B2F00671A6D /* MTMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */; };
 		35FB6C601CB6B612002E4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C5F1CB6B612002E4A6A /* main.m */; };
 		35FB6DFE1CB6B635002E4A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C771CB6B635002E4A6A /* AppDelegate.m */; };
 		35FB6DFF1CB6B635002E4A6A /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C7B1CB6B635002E4A6A /* NSAttributedString+Addition.m */; };
@@ -342,35 +340,29 @@
 		0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBusineCell.m; sourceTree = "<group>"; };
 		0443981C1CB89EAB00B27C80 /* MTLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationCell.h; sourceTree = "<group>"; };
 		0443981D1CB89EAB00B27C80 /* MTLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationCell.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		356707941CB9060D005AB1BE /* LWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWBaseViewController.h; sourceTree = "<group>"; };
-		356707951CB9060D005AB1BE /* LWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWBaseViewController.m; sourceTree = "<group>"; };
-		356707971CB92E3E005AB1BE /* LWCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCustomCell.h; sourceTree = "<group>"; };
-		356707981CB93004005AB1BE /* MTMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyTableViewCell.h; sourceTree = "<group>"; };
-		356707991CB93004005AB1BE /* MTMyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMyTableViewCell.m; sourceTree = "<group>"; };
-		3593F91E1CBAA972006BD88B /* MTMoreCell_ButtonModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_ButtonModal.h; sourceTree = "<group>"; };
-		3593F91F1CBAA972006BD88B /* MTMoreCell_ButtonModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_ButtonModal.m; sourceTree = "<group>"; };
-		3593F9211CBAA982006BD88B /* MTMoreCell_TextModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_TextModal.h; sourceTree = "<group>"; };
-		3593F9221CBAA982006BD88B /* MTMoreCell_TextModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_TextModal.m; sourceTree = "<group>"; };
-=======
 		0443981F1CB8A3AF00B27C80 /* MTHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHeadView.h; sourceTree = "<group>"; };
 		044398201CB8A3AF00B27C80 /* MTHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadView.m; sourceTree = "<group>"; };
 		044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHeadViewButton.h; sourceTree = "<group>"; };
 		044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHeadViewButton.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		044398281CB91E6200B27C80 /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
-		044398291CB91E6200B27C80 /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
-=======
 		3509E2211CB9A54200FF5FDC /* about_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_praise@2x.png"; sourceTree = "<group>"; };
 		3509E2221CB9A54200FF5FDC /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
 		3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
 		3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeTableCustomCell.m; sourceTree = "<group>"; };
+		350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_ButtonModal.h; sourceTree = "<group>"; };
+		350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_ButtonModal.m; sourceTree = "<group>"; };
+		350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
+		350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
+		356707941CB9060D005AB1BE /* LWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWBaseViewController.h; sourceTree = "<group>"; };
+		356707951CB9060D005AB1BE /* LWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWBaseViewController.m; sourceTree = "<group>"; };
+		356707971CB92E3E005AB1BE /* LWCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCustomCell.h; sourceTree = "<group>"; };
 		35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
 		35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
 		35EC8FDB1CBA9E8E0055283F /* MTCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomButton.h; sourceTree = "<group>"; };
 		35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomButton.m; sourceTree = "<group>"; };
->>>>>>> d07f477575cda53a68c084d3a1a4fdf9cdb110d8
->>>>>>> 23276d7359a478d77d66d23bbbc84590d35495a4
+		35F032BF1CBB3B2F00671A6D /* MTMoreCell_TextModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_TextModal.h; sourceTree = "<group>"; };
+		35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_TextModal.m; sourceTree = "<group>"; };
+		35F032C11CBB3B2F00671A6D /* MTMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyTableViewCell.h; sourceTree = "<group>"; };
+		35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMyTableViewCell.m; sourceTree = "<group>"; };
 		35FB6C5B1CB6B612002E4A6A /* Project3_MeiTuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3_MeiTuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FB6C5F1CB6B612002E4A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35FB6C6F1CB6B612002E4A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -806,40 +798,20 @@
 		044398181CB7DBDE00B27C80 /* Busine */ = {
 			isa = PBXGroup;
 			children = (
+				350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */,
+				350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */,
 				0443981F1CB8A3AF00B27C80 /* MTHeadView.h */,
 				044398201CB8A3AF00B27C80 /* MTHeadView.m */,
 				044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */,
 				044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */,
 				0443981C1CB89EAB00B27C80 /* MTLocationCell.h */,
 				0443981D1CB89EAB00B27C80 /* MTLocationCell.m */,
-				044398281CB91E6200B27C80 /* MTsortTableViewCell.h */,
-				044398291CB91E6200B27C80 /* MTsortTableViewCell.m */,
 				044398191CB7DBDE00B27C80 /* MTBusineCell.h */,
 				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
 			);
 			path = Busine;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		3593F91D1CBAA914006BD88B /* My */ = {
-			isa = PBXGroup;
-			children = (
-				356707981CB93004005AB1BE /* MTMyTableViewCell.h */,
-				356707991CB93004005AB1BE /* MTMyTableViewCell.m */,
-			);
-			name = My;
-			sourceTree = "<group>";
-		};
-		3593F9241CBAA98B006BD88B /* More */ = {
-			isa = PBXGroup;
-			children = (
-				3593F91E1CBAA972006BD88B /* MTMoreCell_ButtonModal.h */,
-				3593F91F1CBAA972006BD88B /* MTMoreCell_ButtonModal.m */,
-				3593F9211CBAA982006BD88B /* MTMoreCell_TextModal.h */,
-				3593F9221CBAA982006BD88B /* MTMoreCell_TextModal.m */,
-			);
-			name = More;
-=======
 		3509E24B1CB9A65B00FF5FDC /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -859,7 +831,6 @@
 				35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */,
 			);
 			path = Header;
->>>>>>> 23276d7359a478d77d66d23bbbc84590d35495a4
 			sourceTree = "<group>";
 		};
 		35FB6C521CB6B612002E4A6A = {
@@ -961,13 +932,17 @@
 		35FB6C891CB6B635002E4A6A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */,
+				350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */,
+				35F032BF1CBB3B2F00671A6D /* MTMoreCell_TextModal.h */,
+				35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */,
+				35F032C11CBB3B2F00671A6D /* MTMyTableViewCell.h */,
+				35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */,
 				3509E24B1CB9A65B00FF5FDC /* Home */,
 				044398151CB7DBBA00B27C80 /* MTMainTabBarController.h */,
 				044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */,
 				35FB6C8A1CB6B635002E4A6A /* Main.storyboard */,
 				044398181CB7DBDE00B27C80 /* Busine */,
-				3593F91D1CBAA914006BD88B /* My */,
-				3593F9241CBAA98B006BD88B /* More */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1919,12 +1894,8 @@
 				35FB6EF01CB6B636002E4A6A /* LWEmotionsManager.m in Sources */,
 				35FB6F0F1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				35FB6F101CB6B636002E4A6A /* ZLPhotoPickerCustomToolBarView.m in Sources */,
-<<<<<<< HEAD
-				3567079A1CB93004005AB1BE /* MTMyTableViewCell.m in Sources */,
-=======
 				3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */,
 				35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */,
->>>>>>> 23276d7359a478d77d66d23bbbc84590d35495a4
 				35FB6EFB1CB6B636002E4A6A /* SDWebImagePrefetcher.m in Sources */,
 				35FB6E051CB6B635002E4A6A /* UIView+Margin.m in Sources */,
 				35FB6EFF1CB6B636002E4A6A /* UIImage+WebP.m in Sources */,
@@ -1945,8 +1916,8 @@
 				35FB6F071CB6B636002E4A6A /* ZLCameraView.m in Sources */,
 				35FB6F151CB6B636002E4A6A /* ZLNavigationController.m in Sources */,
 				044398131CB7D91300B27C80 /* MTMoreViewController.m in Sources */,
-				0443982A1CB91E6200B27C80 /* MTsortTableViewCell.m in Sources */,
 				044398141CB7D91300B27C80 /* MTMyViewController.m in Sources */,
+				350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */,
 				35FB6EF41CB6B636002E4A6A /* NSData+ImageContentType.m in Sources */,
 				044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */,
 				35FB6E071CB6B635002E4A6A /* LWConst.m in Sources */,
@@ -1965,17 +1936,18 @@
 				35FB6EFA1CB6B636002E4A6A /* SDWebImageManager.m in Sources */,
 				35FB6F021CB6B636002E4A6A /* UIView+WebCacheOperation.m in Sources */,
 				35FB6E0C1CB6B635002E4A6A /* DACircularProgressView.m in Sources */,
-				3593F9201CBAA972006BD88B /* MTMoreCell_ButtonModal.m in Sources */,
 				35FB6E001CB6B635002E4A6A /* NSString+Addition.m in Sources */,
+				35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */,
 				35FB6E0A1CB6B635002E4A6A /* LWBaseResponseModel.m in Sources */,
 				35FB6F061CB6B636002E4A6A /* ZLCameraImageView.m in Sources */,
 				35FB6EF81CB6B636002E4A6A /* SDWebImageDownloader.m in Sources */,
 				35FB6F0C1CB6B636002E4A6A /* ZLPhotoPickerBrowserViewController.m in Sources */,
 				044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */,
+				35F032C51CBB3B2F00671A6D /* MTMyTableViewCell.m in Sources */,
 				35FB6F1A1CB6B636002E4A6A /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				356707961CB9060D005AB1BE /* LWBaseViewController.m in Sources */,
-				3593F9231CBAA982006BD88B /* MTMoreCell_TextModal.m in Sources */,
 				35FB6EFD1CB6B636002E4A6A /* UIImage+GIF.m in Sources */,
+				350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */,
 				35FB6E021CB6B635002E4A6A /* UIColor+Addition.m in Sources */,
 				35FB6F0E1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				35FB6E091CB6B635002E4A6A /* LWBaseRequestModel.m in Sources */,
