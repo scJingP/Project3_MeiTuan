@@ -6,13 +6,6 @@
 //  Copyright © 2016年 tens03. All rights reserved.
 //
 
-<<<<<<< HEAD
-#import "MTHomeViewController.h"
-
-@implementation MTHomeViewController
-
-=======
-
 #import "MTHomeViewController.h"
 #import "MTHomeTableCustomCell.h"
 #import "MTHomeHeadView.h"
@@ -127,5 +120,5 @@ static NSString *identify = @"MTHomeTableCustomCell";
     }
     return _placeHolder;
 }
->>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
+
 @end

@@ -5,13 +5,7 @@
 //  Created by guoqiang on 16/4/8.
 //  Copyright © 2016年 tens03. All rights reserved.
 //
-
 #import "MTMyViewController.h"
-<<<<<<< HEAD
-
-@implementation MTMyViewController
-
-=======
 #import "MTMyTableViewCell.h"
 
 @interface MTMyViewController ()
@@ -127,9 +121,4 @@
     return count;
 }
 
-
-
-
-
->>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
 @end

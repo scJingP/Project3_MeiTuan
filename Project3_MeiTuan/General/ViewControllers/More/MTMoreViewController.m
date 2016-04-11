@@ -7,11 +7,6 @@
 //
 
 #import "MTMoreViewController.h"
-<<<<<<< HEAD
-
-@implementation MTMoreViewController
-
-=======
 #import "MTMoreCell_ButtonModal.h"
 #import "MTMoreCell_TextModal.h"
 #import <Masonry.h>
@@ -124,7 +119,4 @@
     return count;
 }
 
-
-
->>>>>>> bdc9d4fe4e5d488f45c02046cc0f41cdacc9b30c
 @end
