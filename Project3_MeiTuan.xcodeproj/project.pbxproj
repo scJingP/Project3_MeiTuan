@@ -833,6 +833,26 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		35163CEA1CBB483B002ECD33 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */,
+				350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */,
+				35F032BF1CBB3B2F00671A6D /* MTMoreCell_TextModal.h */,
+				35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		35163CEB1CBB4846002ECD33 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				35F032C11CBB3B2F00671A6D /* MTMyTableViewCell.h */,
+				35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
 		35FB6C521CB6B612002E4A6A = {
 			isa = PBXGroup;
 			children = (
@@ -932,17 +952,13 @@
 		35FB6C891CB6B635002E4A6A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */,
-				350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */,
-				35F032BF1CBB3B2F00671A6D /* MTMoreCell_TextModal.h */,
-				35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */,
-				35F032C11CBB3B2F00671A6D /* MTMyTableViewCell.h */,
-				35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */,
+				35163CEA1CBB483B002ECD33 /* More */,
+				35163CEB1CBB4846002ECD33 /* My */,
 				3509E24B1CB9A65B00FF5FDC /* Home */,
+				044398181CB7DBDE00B27C80 /* Busine */,
 				044398151CB7DBBA00B27C80 /* MTMainTabBarController.h */,
 				044398161CB7DBBA00B27C80 /* MTMainTabBarController.m */,
 				35FB6C8A1CB6B635002E4A6A /* Main.storyboard */,
-				044398181CB7DBDE00B27C80 /* Busine */,
 			);
 			path = Views;
 			sourceTree = "<group>";
