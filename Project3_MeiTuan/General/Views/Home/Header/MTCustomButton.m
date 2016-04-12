@@ -41,7 +41,6 @@
         make.width.mas_equalTo(38);
     }];
     [self.functionLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.mas_equalTo(38);
         make.centerX.mas_equalTo(self.iconImage.mas_centerX);
         make.top.mas_equalTo(self.iconImage.mas_bottom).offset(5);
     }];

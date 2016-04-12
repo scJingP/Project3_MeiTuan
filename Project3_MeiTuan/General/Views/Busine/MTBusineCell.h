@@ -8,15 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MTHeadView.h"
+
 @interface MTBusineCell : UITableViewCell
 
-@property (strong, nonatomic) UIImageView *imageview;  //图片
-@property (strong, nonatomic) UIImageView *starimageview;  //星星
+@property (strong, nonatomic) UIImageView *imageview; //图片
+@property (strong, nonatomic) UIImageView *starimage;  //星星
 @property (strong, nonatomic) UILabel *namelabel;  //店名
 @property (strong, nonatomic) UILabel *catenamelabel;  //类型
-@property (strong, nonatomic) UILabel *areanamelabel;  //附近地址
-@property (strong, nonatomic) UILabel *marknumber;  //评价
+@property (strong, nonatomic) UILabel *areanamelabel;  //地址
+@property (strong, nonatomic) UILabel *marknumber;  //评价数量
 @property (strong, nonatomic) UILabel *distancelabel;  //距离
+@property (strong, nonatomic) MTHeadView *headview;
 
 //加载视图
 -(void)initView;

@@ -2,13 +2,11 @@
 //  MTHeadView.m
 //  Project3_MeiTuan
 //
-//  Created by guoqiang on 16/4/9.
-//  Copyright © 2016年 tens03. All rights reserved.
-//
 
 #import "MTHeadView.h"
-#import "MTsortTableViewCell.h"
 #import <Masonry.h>
+#import "MTHeadButton.h"
+#import "MTsortTableViewCell.h"
 
 static NSString *SortTableViewCell = @"sorttableviewcell";
 @interface MTHeadView ()<UITableViewDataSource,UITableViewDelegate>{
@@ -17,6 +15,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
 
 @end
 @implementation MTHeadView
+
 #pragma mark - init
 -(instancetype)init{
     self = [super init];
@@ -27,6 +26,40 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return self;
 }
+
+#pragma mark -设置布局
+//-(void)setupAutoLayout{
+//    [self addSubview:self.leftbutton];
+//    [self addSubview:self.centerbutton];
+//    [self addSubview:self.rightbutton];
+//    
+//    NSArray *array = @[self.leftbutton,self.centerbutton,self.rightbutton];
+//    [array mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
+//    [array mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.bottom.equalTo(self);
+//    }];
+//}
+
+#pragma mark - Custom
+//-(MTHeadButton *)leftbutton{
+//    if (_leftbutton == nil) {
+//        _leftbutton = [MTHeadButton buttonWithType:UIButtonTypeCustom];
+//    }
+//    return _leftbutton;
+//}
+//-(MTHeadButton *)centerbutton{
+//    if (_centerbutton == nil) {
+//        _centerbutton = [MTHeadButton buttonWithType:UIButtonTypeCustom];
+//    }
+//    return _centerbutton;
+//}
+//-(MTHeadButton *)rightbutton{
+//    if (_rightbutton == nil) {
+//        _rightbutton = [MTHeadButton buttonWithType:UIButtonTypeCustom];
+//    }
+//    return _rightbutton;
+//}
+
 #pragma mark - 添加视图
 -(void)initSubview{
     [self addSubview:self.allbusinebutton];
@@ -145,6 +178,8 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _allbusinebutton;
 }
+
+
 -(MTHeadViewButton *)favorablebusinebutton{
     if (_favorablebusinebutton == nil) {
         _favorablebusinebutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -157,6 +192,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _favorablebusinebutton;
 }
+
 -(MTHeadViewButton *)allclassbutton{
     if (_allclassbutton == nil) {
         _allclassbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -171,6 +207,8 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _allclassbutton;
 }
+
+
 -(MTHeadViewButton *)citybutton{
     if (_citybutton == nil) {
         _citybutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -204,14 +242,14 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _greenline;
 }
-//-(MTHeadViewButton *)locationbutton{
-//    if (_locationbutton == nil) {
-//        _locationbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
-//        [_locationbutton setImage:[UIImage imageNamed:@"icon_homepage_map_old"] forState:UIControlStateNormal];
-//        _locationbutton.tag = 5;
-//    }
-//    return _locationbutton;
-//}
+-(MTHeadViewButton *)locationbutton{
+    if (_locationbutton == nil) {
+        _locationbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
+        [_locationbutton setImage:[UIImage imageNamed:@"icon_homepage_map_old"] forState:UIControlStateNormal];
+        _locationbutton.tag = 5;
+    }
+    return _locationbutton;
+}
 -(MTHeadViewButton *)searchbutton{
     if (_searchbutton == nil) {
         _searchbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -220,6 +258,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _searchbutton;
 }
+
 -(UIView *)contanierview{
     if (_contanierview == nil) {
         _contanierview = [[UIView alloc] init];
@@ -227,6 +266,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _contanierview;
 }
+
 -(UITableView *)sorttableview{
     if (_sorttableview == nil) {
         _sorttableview = [[UITableView alloc] init];
@@ -235,6 +275,5 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _sorttableview;
 }
-
 
 @end
