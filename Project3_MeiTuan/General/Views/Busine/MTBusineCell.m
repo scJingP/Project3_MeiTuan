@@ -77,24 +77,19 @@
     [self.imageview mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@80);
     }];
-    [self.namelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(@30);
+    [self.starimageview mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(@20);
     }];
     [self.catenamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@40);
     }];
     [self.areanamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@70);
+        make.width.equalTo(@60);
     }];
     [self.marknumber mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@40);
     }];
-    [self.starimageview mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(@15);
-    }];
-    [self.distancelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@50);
-    }];
+
     [super updateConstraints];
 }
 
@@ -104,7 +99,7 @@
 }
 
 #pragma Custom
--(UIImageView *)imageview{
+- (UIImageView *)imageview{
     if (_imageview == nil) {
         _imageview = [[UIImageView alloc] init];
         _imageview.layer.cornerRadius = 10;
@@ -112,6 +107,7 @@
     }
     return _imageview;
 }
+
 -(UIImageView *)starimageview{
     if (_starimageview == nil) {
         _starimageview = [[UIImageView alloc] init];
@@ -119,6 +115,7 @@
     }
     return _starimageview;
 }
+
 -(UILabel *)namelabel{
     if (_namelabel == nil) {
         _namelabel = [[UILabel alloc] init];

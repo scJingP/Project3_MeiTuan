@@ -10,7 +10,6 @@
 #import "MTHeadViewButton.h"
 
 @interface MTHeadView : UIView
-
 @property (strong, nonatomic) MTHeadViewButton *allbusinebutton;  //全部商家
 @property (strong, nonatomic) MTHeadViewButton *favorablebusinebutton;  //优惠商家
 @property (strong, nonatomic) MTHeadViewButton *allclassbutton; //全部分类
