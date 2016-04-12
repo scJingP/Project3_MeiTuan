@@ -6,13 +6,10 @@
 //  Copyright © 2016年 tens03. All rights reserved.
 //
 
-
 #import "MTHomeViewController.h"
 #import "MTHomeTableCustomCell.h"
 #import "MTHomeHeadView.h"
 #import <Masonry.h>
-#import "MTNetworkManager.h"
-#import "MTBusineRequestModel.h"
 
 static NSString *identify = @"MTHomeTableCustomCell";
 
@@ -123,4 +120,5 @@ static NSString *identify = @"MTHomeTableCustomCell";
     }
     return _placeHolder;
 }
+
 @end

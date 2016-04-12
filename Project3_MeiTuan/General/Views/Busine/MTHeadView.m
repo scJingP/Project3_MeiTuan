@@ -2,31 +2,29 @@
 //  MTHeadView.m
 //  Project3_MeiTuan
 //
-//  Created by guoqiang on 16/4/9.
-//  Copyright © 2016年 tens03. All rights reserved.
-//
 
 #import "MTHeadView.h"
-#import "MTsortTableViewCell.h"
 #import <Masonry.h>
+#import "MTHeadButton.h"
+#import "MTsortTableViewCell.h"
 
 static NSString *SortTableViewCell = @"sorttableviewcell";
 @interface MTHeadView ()<UITableViewDataSource,UITableViewDelegate>{
-    CGFloat lineX;
 }
 
 @end
 @implementation MTHeadView
+
 #pragma mark - init
 -(instancetype)init{
     self = [super init];
     if (self) {
-        lineX = 13;
         [self initSubview];
         [self setupAutoLayout];
     }
     return self;
 }
+
 #pragma mark - 添加视图
 -(void)initSubview{
     [self addSubview:self.allbusinebutton];
@@ -35,7 +33,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     [self addSubview:self.allclassbutton];
     [self addSubview:self.citybutton];
     [self addSubview:self.capacitysortbutton];
-//    [self addSubview:self.locationbutton];
+    [self addSubview:self.locationbutton];
     [self addSubview:self.searchbutton];
 }
 
@@ -59,64 +57,54 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         make.width.equalTo(self.allbusinebutton);
         make.height.equalTo(self.allbusinebutton);
     }];
-    [self.greenline mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.allbusinebutton.mas_bottom);
-        make.leading.equalTo(@(lineX));
-        make.height.equalTo(@2);
-        make.width.equalTo(@50);
-    }];
     [self.searchbutton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.trailing.equalTo(self);
         make.top.equalTo(self);
         make.height.equalTo(@48);
         make.width.equalTo(@50);
     }];
-//    [self.locationbutton mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.trailing.equalTo(self.searchbutton.mas_leading);
-//        make.top.equalTo(self);
-//        make.height.equalTo(self.searchbutton);
-//        make.width.equalTo(self.searchbutton);
-//    }];
+    [self.locationbutton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.trailing.equalTo(self.searchbutton.mas_leading);
+        make.top.equalTo(self);
+        make.height.equalTo(self.searchbutton);
+        make.width.equalTo(self.searchbutton);
+    }];
 }
 
 #pragma mark - 按钮点击
--(void)busineButtonOnclike:(MTHeadViewButton *)sender{
-    lineX = sender.leftX + 13;
-    [self setNeedsUpdateConstraints];
-    [self needsUpdateConstraints];
-    [UIView animateWithDuration:0.15 animations:^{
-        [self layoutIfNeeded];
-    }];
-}
+//-(void)busineButtonOnclike:(MTHeadViewButton *)sender{
+//    lineX = sender.leftX + 13;
+//    [self setNeedsUpdateConstraints];
+//    [self needsUpdateConstraints];
+//    [UIView animateWithDuration:0.15 animations:^{
+//        [self layoutIfNeeded];
+//    }];
+//    
+//    if (sender.tag == 0) {
+//    }
+//    if (sender.tag == 1) {
+//    }
+//}
 -(void)sortButtonOnclike:(MTHeadViewButton *)sender{
 //    if (sender.selected) {
-        [self addSubview:self.contanierview];
-        [self.contanierview addSubview:self.sorttableview];
-        [self.contanierview mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.leading.trailing.equalTo(self);
-            make.top.equalTo(self.allclassbutton.mas_bottom);
-            make.height.equalTo(@370);
-        }];
-        [self.sorttableview mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.leading.top.equalTo(self.contanierview);
-            make.height.equalTo(self.contanierview);
-            make.width.equalTo(@160);
-        }];
+//        [self addSubview:self.contanierview];
+//        [self.contanierview addSubview:self.sorttableview];
+//        [self.contanierview mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.leading.trailing.equalTo(self);
+//            make.top.equalTo(self.allclassbutton.mas_bottom);
+//            make.height.equalTo(@370);
+//        }];
+//        [self.sorttableview mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.leading.top.equalTo(self.contanierview);
+//            make.height.equalTo(self.contanierview);
+//            make.width.equalTo(@160);
+//        }];
 //    }else{
 //        self.contanierview.hidden = YES;
 //        self.sorttableview.hidden = YES;
 //    }
     
 //    sender.selected = !sender.selected;
-}
-#pragma mark - 更新绿线的布局
--(void)updateConstraints{
-    if (self.greenline.superview) {
-        [self.greenline mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.leading.equalTo(@(lineX));
-        }];
-    }
-    [super updateConstraints];
 }
 
 #pragma mark -UITableViewDataSource&&UITableViewDelegate
@@ -139,24 +127,30 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _allbusinebutton.tag = 0;
         [_allbusinebutton setTitle:@"全部商家" forState:UIControlStateNormal];
         [_allbusinebutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
-        [_allbusinebutton setTitleColor:[UIColor colorWithR:62 g:182 b:168 alpha:1] forState:UIControlStateSelected];
         _allbusinebutton.titleLabel.font = [UIFont systemFontOfSize:15];
-        [_allbusinebutton addTarget:self action:@selector(busineButtonOnclike:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _allbusinebutton;
 }
+
 -(MTHeadViewButton *)favorablebusinebutton{
     if (_favorablebusinebutton == nil) {
         _favorablebusinebutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
         _favorablebusinebutton.tag = 1;
         [_favorablebusinebutton setTitle:@"优惠商家" forState:UIControlStateNormal];
         [_favorablebusinebutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
-        [_favorablebusinebutton setTitleColor:[UIColor colorWithR:62 g:182 b:168 alpha:1] forState:UIControlStateSelected];
         _favorablebusinebutton.titleLabel.font = [UIFont systemFontOfSize:15];
-        [_favorablebusinebutton addTarget:self action:@selector(busineButtonOnclike:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _favorablebusinebutton;
 }
+
+-(UIView *)greenline{
+    if (_greenline == nil) {
+        _greenline = [[UIView alloc] init];
+        _greenline.backgroundColor = [UIColor colorWithR:58 g:172 b:159 alpha:1];
+    }
+    return _greenline;
+}
+
 -(MTHeadViewButton *)allclassbutton{
     if (_allclassbutton == nil) {
         _allclassbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -171,6 +165,8 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _allclassbutton;
 }
+
+
 -(MTHeadViewButton *)citybutton{
     if (_citybutton == nil) {
         _citybutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -197,21 +193,14 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _capacitysortbutton;
 }
--(UIView *)greenline{
-    if (_greenline == nil) {
-        _greenline = [[UIView alloc] init];
-        _greenline.backgroundColor = [UIColor colorWithR:58 g:172 b:159 alpha:1];
+-(MTHeadViewButton *)locationbutton{
+    if (_locationbutton == nil) {
+        _locationbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
+        [_locationbutton setImage:[UIImage imageNamed:@"icon_homepage_map_old"] forState:UIControlStateNormal];
+        _locationbutton.tag = 5;
     }
-    return _greenline;
+    return _locationbutton;
 }
-//-(MTHeadViewButton *)locationbutton{
-//    if (_locationbutton == nil) {
-//        _locationbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
-//        [_locationbutton setImage:[UIImage imageNamed:@"icon_homepage_map_old"] forState:UIControlStateNormal];
-//        _locationbutton.tag = 5;
-//    }
-//    return _locationbutton;
-//}
 -(MTHeadViewButton *)searchbutton{
     if (_searchbutton == nil) {
         _searchbutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -220,6 +209,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _searchbutton;
 }
+
 -(UIView *)contanierview{
     if (_contanierview == nil) {
         _contanierview = [[UIView alloc] init];
@@ -227,6 +217,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _contanierview;
 }
+
 -(UITableView *)sorttableview{
     if (_sorttableview == nil) {
         _sorttableview = [[UITableView alloc] init];
@@ -235,6 +226,5 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     }
     return _sorttableview;
 }
-
 
 @end

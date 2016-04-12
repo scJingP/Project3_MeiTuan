@@ -112,12 +112,12 @@
 }
 
 -(void)buttonClick:(MTCustomButton*)sender{
-    NSLog(@"%@ %ld", sender.functionLabel.text, sender.tag);
+
 }
 
 #pragma mark - UIScrollViewDelegate
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    NSLog(@"hah");
+
 }
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     if (self.scrollView.contentOffset.x == 320) {
