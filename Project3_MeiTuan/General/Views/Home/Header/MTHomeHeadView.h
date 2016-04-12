@@ -10,7 +10,7 @@
 
 
 
-@interface MTHomeHeadButtonView : UIView
+@interface MTHomeHeadView : UIView
 
 
 -(void)loadHeadView:(CGRect)frame;

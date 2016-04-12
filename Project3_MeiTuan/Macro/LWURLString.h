@@ -9,14 +9,13 @@
 #ifndef LWRequestURL_h
 #define LWRequestURL_h
 
-#define baseURLString(url)                  [NSString stringWithFormat:@"https://api.weibo.com/2/%@",url]
-
-#define kURLStringPublicTimeline            baseURLString(@"statuses/home_timeline.json")
-#define kURLStringComment                   baseURLString(@"comments/show.json")
-#define kURLStringReleaseWeiboAndImage      @"https://upload.api.weibo.com/2/statuses/upload.json"
-#define kURLStringReleaseWeibo              @"https://api.weibo.com/2/statuses/update.json"
 
 #define kHttpGet                             @"GET"
 #define kHttpPost                            @"POST"
+
+// 名称：kURLString
+#define kURLStringBusineList                @"http://api.meituan.com/group/v1/poi/select/cate/-1"
+
+
 
 #endif /* LWRequestURL_h */

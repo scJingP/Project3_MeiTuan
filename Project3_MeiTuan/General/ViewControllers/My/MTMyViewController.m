@@ -5,11 +5,14 @@
 //  Created by guoqiang on 16/4/8.
 //  Copyright © 2016年 tens03. All rights reserved.
 //
+
 #import "MTMyViewController.h"
 #import "MTMyTableViewCell.h"
+#import <Masonry.h>
+#import "LWIconButton.h"
 
 @interface MTMyViewController ()
-<UITableViewDataSource, UITableViewDelegate>
+<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 - (IBAction)settingButtonOnClick:(UIButton *)sender;
 - (IBAction)messageButtonOnClick:(UIButton *)sender;
@@ -17,6 +20,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblUserName;
 @property (weak, nonatomic) IBOutlet UIButton *btnUserDetail;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIImageView *ivBackground;
+@property (weak, nonatomic) IBOutlet UIView *headView;
+
+@property (nonatomic, strong) UIView *orderDetailView;
 
 @property (nonatomic, strong) NSMutableArray *arrCellName;
 @property (nonatomic, strong) NSMutableArray *arrCellDetailName;
@@ -73,6 +80,33 @@
     return _arrRowNumber;
 }
 
+- (UIView *)orderDetailView
+{
+    if (_orderDetailView == nil) {
+        _orderDetailView = [[UIView alloc] init];
+        _orderDetailView.backgroundColor = [UIColor whiteColor];
+        
+        LWIconButton *btnPendingPayment = [[LWIconButton alloc] initWithFrame:CGRectMake(kScreenWidth/4.0*0, 0, kScreenWidth/4.0, 50)];
+        btnPendingPayment.ivIcon.image = [UIImage imageNamed:@"icon_ordercenter_payment"];
+        btnPendingPayment.lblTitle.text = @"待支付";
+        LWIconButton *btnPendingUse = [[LWIconButton alloc] initWithFrame:CGRectMake(kScreenWidth/4.0*1, 0, kScreenWidth/4.0, 50)];
+        btnPendingUse.ivIcon.image = [UIImage imageNamed:@"user_admin_modify_password"];
+        btnPendingUse.lblTitle.text = @"待使用";
+        LWIconButton *btnPendingComment = [[LWIconButton alloc] initWithFrame:CGRectMake(kScreenWidth/4.0*2, 0, kScreenWidth/4.0, 50)];
+        btnPendingComment.ivIcon.image = [UIImage imageNamed:@"icon_mine_comment"];
+        btnPendingComment.lblTitle.text = @"待评论";
+        LWIconButton *btnRefund = [[LWIconButton alloc] initWithFrame:CGRectMake(kScreenWidth/4.0*3, 0, kScreenWidth/4.0, 50)];
+        btnRefund.ivIcon.image = [UIImage imageNamed:@"icon_ordercenter_refund"];
+        btnRefund.lblTitle.text = @"退款/售后";
+        [_orderDetailView addSubview:btnPendingPayment];
+        [_orderDetailView addSubview:btnPendingUse];
+        [_orderDetailView addSubview:btnPendingComment];
+        [_orderDetailView addSubview:btnRefund];
+    }
+    return _orderDetailView;
+
+}
+
 #pragma mark - <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSInteger count = [self.arrRowNumber[section] integerValue];
@@ -101,10 +135,37 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
+    if (section == 0) {
+        return 50;
+    }
     if (section == 5) {
         return 10;
     }
     return 0;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    if (section == 0) {
+//        return self.orderDetailView;
+        UIView *view = [[UIView alloc] init];
+        view.backgroundColor = [UIColor redColor];
+        return self.orderDetailView;
+    }
+    return nil;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    float offsetY = scrollView.contentOffset.y;
+//    [self.headView mas_updateConstraints:^(MASConstraintMaker *make) {
+//        make.height.mas_equalTo(150 - offsetY);
+//    }];
+//    [self.tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.equalTo(self);
+//        make.top.equalTo(self.headView.mas_bottom);
+//        make.height.mas_equalTo(150+offsetY);
+//    }];
 }
 
 #pragma mark - private
@@ -120,5 +181,8 @@
     count += row;
     return count;
 }
+
+
+
 
 @end

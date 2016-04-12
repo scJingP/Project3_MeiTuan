@@ -26,11 +26,8 @@
 
 #pragma mark - 加载视图
 -(void)initView{
-//    [self.contentView addSubview:self.headview];
     [self.contentView addSubview:self.imageview];
-    [self.contentView addSubview:self.starimage];
-    [self.contentView addSubview:self.imageview];
-//    [self.contentView addSubview:self.starimageview];
+    [self.contentView addSubview:self.starimageview];
     [self.contentView addSubview:self.namelabel];
     [self.contentView addSubview:self.catenamelabel];
     [self.contentView addSubview:self.areanamelabel];
@@ -41,9 +38,6 @@
 
 #pragma mark - 自动布局
 -(void)setupAutoLayout{
-//    [self.headview mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.leading.trailing.equalTo(self);
-//    }];
     [self.imageview mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.leading.equalTo(@2);
         make.bottom.equalTo(@-2);
@@ -67,11 +61,11 @@
         make.top.equalTo(self.namelabel.mas_bottom).offset(10);
         make.leading.equalTo(self.imageview.mas_trailing).offset(100);
     }];
-//    [self.starimageview mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.leading.equalTo(self.namelabel);
-//        make.top.equalTo(self.marknumber);
-//        make.trailing.equalTo(self.marknumber.mas_leading).offset(-15);
-//    }];
+    [self.starimageview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.equalTo(self.namelabel);
+        make.top.equalTo(self.marknumber);
+        make.trailing.equalTo(self.marknumber.mas_leading).offset(-15);
+    }];
     [self.distancelabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.areanamelabel);
         make.trailing.equalTo(@10);
@@ -80,34 +74,23 @@
 
 #pragma mark - 设置宽高
 -(void)updateConstraints{
-//    [self.headview mas_updateConstraints:^(MASConstraintMaker *make) {
-//        make.height.equalTo(@50);
-//    }];
     [self.imageview mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@80);
     }];
-    [self.starimage mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(@20);
-    }];
     [self.namelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(@20);
+        make.height.equalTo(@30);
     }];
-    
     [self.catenamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@40);
-        make.height.equalTo(@20);
     }];
     [self.areanamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.height.equalTo(@20);
-        make.width.equalTo(@60);
+        make.width.equalTo(@70);
     }];
     [self.marknumber mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@40);
     }];
-    [self.distancelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@40);
-//    [self.starimageview mas_updateConstraints:^(MASConstraintMaker *make) {
-//        make.height.equalTo(@15);
+    [self.starimageview mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(@15);
     }];
     [self.distancelabel mas_updateConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(@50);
@@ -116,28 +99,26 @@
 }
 
 #pragma mark - 设置数据
-//-(void)setInformation{
-//    
-//}
+-(void)setInformation{
+    
+}
 
 #pragma Custom
-//- (UIImageView *)imageview{
-//    if (_imageview == nil) {
-//        _imageview = [[UIImageView alloc] init];
-//        _imageview.layer.cornerRadius = 10;
-//        _imageview.layer.masksToBounds = YES;
-//    }
-//    return _imageview;
-//}
-
-//-(UIImageView *)starimageview{
-//    if (_starimageview == nil) {
-//        _starimageview = [[UIImageView alloc] init];
-//        _starimageview.layer.masksToBounds = YES;
-//    }
-//    return _starimageview;
-//}
-     
+-(UIImageView *)imageview{
+    if (_imageview == nil) {
+        _imageview = [[UIImageView alloc] init];
+        _imageview.layer.cornerRadius = 10;
+        _imageview.layer.masksToBounds = YES;
+    }
+    return _imageview;
+}
+-(UIImageView *)starimageview{
+    if (_starimageview == nil) {
+        _starimageview = [[UIImageView alloc] init];
+        _starimageview.layer.masksToBounds = YES;
+    }
+    return _starimageview;
+}
 -(UILabel *)namelabel{
     if (_namelabel == nil) {
         _namelabel = [[UILabel alloc] init];
@@ -177,13 +158,6 @@
         _distancelabel.textColor = [UIColor colorWithR:172 g:172 b:172 alpha:1];
     }
     return _distancelabel;
-}
-     
--(MTHeadView *)headview{
-    if (_headview == nil) {
-        _headview = [[MTHeadView alloc] init];
-    }
-    return _headview;
 }
 
 @end

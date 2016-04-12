@@ -1,0 +1,571 @@
+{
+    "globalId": "4fe38febfdea0856fca0dedd2d8ec832",
+    "stid": "7277947335170570240_c0_e4fe38febfdea0856fca0dedd2d8ec832",
+    "stids": [
+    {
+        "stid": "7277947335170570240_c0_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 31032248
+    },
+    {
+        "stid": "7277947335170570240_c1_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 34398330
+    },
+    {
+        "stid": "7277947335170570240_c2_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 30002452
+    },
+    {
+        "stid": "7277947335170570240_c3_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 33257331
+    },
+    {
+        "stid": "7277947335170570240_c4_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 4279080
+    },
+    {
+        "stid": "7277947335170570240_c5_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 28071792
+    },
+    {
+        "stid": "7277947335170570240_c6_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 36018809
+    },
+    {
+        "stid": "7277947335170570240_c7_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 28127065
+    },
+    {
+        "stid": "7277947335170570240_c8_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 30398794
+    },
+    {
+        "stid": "7277947335170570240_c9_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 28898372
+    },
+    {
+        "stid": "7277947335170570240_c10_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 29513718
+    },
+    {
+        "stid": "7277947335170570240_c11_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 29808933
+    },
+    {
+        "stid": "7277947335170570240_c12_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 33360458
+    },
+    {
+        "stid": "7277947335170570240_c13_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 6256494
+    },
+    {
+        "stid": "7277947335170570240_c14_e4fe38febfdea0856fca0dedd2d8ec832",
+        "dealid": 30213744
+    }
+    ],
+    "ct_pois": [],
+    "data": [
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/c5f4c4e6ec270560fcf64afae4c0e1f3107254.jpg",
+        "imageTag": "3",
+        "title": "中国黄金",
+        "subTitle": "[6店通用] 金铂福吊坠1个，仅限自提，提供免费WiFi",
+        "mainMessage": "¥",
+        "mainMessage2": "9.9",
+        "subMessage": "门市价:¥228",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售59759",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "31032248",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/31032248.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/31032248.html",
+            "cate": "3,4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"2016-01-02\",\"startDate\":\"2016-01-01\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c0_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/0d3710667d149b548f2bb23d5ac252ec32824.jpg",
+        "imageTag": "0",
+        "title": "A4尺寸绘本任选",
+        "subTitle": "[8件包邮] A4尺寸，60册经典绘本任选专为3-9岁小朋友编写",
+        "mainMessage": "¥",
+        "mainMessage2": "7.2",
+        "subMessage": "门市价:¥28",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售39727",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "34398330",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/34398330.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/34398330.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c1_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/d90bd8be3b8b2e15cd26be6edd37efbe44149.jpg",
+        "imageTag": "3",
+        "title": "中百百货",
+        "subTitle": "[多城市] 1000元储值卡1张，可叠加",
+        "mainMessage": "¥",
+        "mainMessage2": "970",
+        "subMessage": "门市价:¥1000",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售44408",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "30002452",
+        "_iUrl": "",
+        "_jumpNeed": {
+            "channel": "group",
+            "iUrl": "",
+            "cate": "3",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}",
+                "13": "1"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c2_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/85dfb6ea40d585f88f3c9655eca0ee7624745.jpg",
+        "imageTag": "0",
+        "title": "小迷糊补水黑膜7片",
+        "subTitle": "[包邮] 专注补水黑膜法，一款明星都在用的面膜！",
+        "mainMessage": "¥",
+        "mainMessage2": "19.9",
+        "subMessage": "门市价:¥79",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售58358",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "33257331",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/33257331.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/33257331.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c3_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/__30539077__2514139.jpg",
+        "imageTag": "3",
+        "title": "乡下人红薯吧",
+        "subTitle": "[钟楼/鼓楼] 友臣肉松饼1袋，经典美味不可错过的美味诱惑",
+        "mainMessage": "¥",
+        "mainMessage2": "0.99",
+        "subMessage": "门市价:¥2",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售211899",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "4279080",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/4279080.html",
+        "_jumpNeed": {
+            "channel": "food",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/4279080.html",
+            "cate": "3",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c4_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/81b47d854e827cc1c3a129668ab8dd0a34586.jpg",
+        "imageTag": "3",
+        "title": "中百超市",
+        "subTitle": "[933店通用] 100元购物卡1张，仅限自提",
+        "mainMessage": "¥",
+        "mainMessage2": "97",
+        "subMessage": "门市价:¥100",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售49106",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "28071792",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28071792.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28071792.html",
+            "cate": "3,4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c5_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/afa23ff34999f3158e6e0dce52c7e5c715402.jpg",
+        "imageTag": "0",
+        "title": "浪莎包芯丝连裤袜",
+        "subTitle": "[10件包邮] 浪莎包芯丝连裤袜1双，黑色、肉色、咖啡色、灰色可选",
+        "mainMessage": "¥",
+        "mainMessage2": "4.99",
+        "subMessage": "门市价:¥19",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售42652",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "36018809",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/36018809.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/36018809.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c6_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/d77491bb815f3a7015ae64aa65b7c4f517901.jpg",
+        "imageTag": "0",
+        "title": "苹果手机钢化玻璃膜",
+        "subTitle": "[2件包邮] iphone4/5/6防爆钢化玻璃膜4款可选",
+        "mainMessage": "¥",
+        "mainMessage2": "9.8",
+        "subMessage": "门市价:¥21",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售82852",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "28127065",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28127065.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28127065.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c7_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/7afc5ecf77ce3102319aec9130cdd22d38591.jpg",
+        "imageTag": "0",
+        "title": "天丝棉3D四件套",
+        "subTitle": "[包邮] 天丝棉四件套，3D大花，1.5和1.8米宽床通用！",
+        "mainMessage": "¥",
+        "mainMessage2": "69",
+        "subMessage": "门市价:¥299",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售42139",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "30398794",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/30398794.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/30398794.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c8_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/71fcea8167b5cc61aa4f006ee14f61db30783.jpg",
+        "imageTag": "0",
+        "title": "四月茶侬柚子茶任选",
+        "subTitle": "[2件包邮] 柚子柠檬茶500g任选 美女们的酸甜饮品！",
+        "mainMessage": "¥",
+        "mainMessage2": "15.8",
+        "subMessage": "门市价:¥100",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售54755",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "28898372",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28898372.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/28898372.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c9_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/3674dd3df3214f8a32a5a025bb370de414368.jpg",
+        "imageTag": "0",
+        "title": "智利进口达利干红",
+        "subTitle": "[包邮] 美团热销红酒 假一赔十 年货必选红酒！",
+        "mainMessage": "¥",
+        "mainMessage2": "29.9",
+        "subMessage": "门市价:¥198",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售51627",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "29513718",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/29513718.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/29513718.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c10_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/3278e1a82d7704b348a3399933d05ac939790.jpg",
+        "imageTag": "0",
+        "title": "皇冠曲奇饼干72g",
+        "subTitle": "[8件包邮] 进口曲奇 现货时发 低价狂欢 囤起来 售完恢复原价",
+        "mainMessage": "¥",
+        "mainMessage2": "9.8",
+        "subMessage": "门市价:¥10.8",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售627737",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "29808933",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/29808933.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/29808933.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c11_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/2f335696f6fe64a29dff2a4e3077d83a28114.jpg",
+        "imageTag": "0",
+        "title": "光控感应LED夜灯",
+        "subTitle": "[2件包邮] 多彩生活光控感应LED夜灯根据周围环境光自动调节",
+        "mainMessage": "¥",
+        "mainMessage2": "8.8",
+        "subMessage": "门市价:¥22",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售48994",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "33360458",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/33360458.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/33360458.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c12_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p1.meituan.net/w.h/deal/__27949727__7228250.jpg",
+        "imageTag": "0",
+        "title": "黄胜记鼓浪屿肉松店",
+        "subTitle": "[鼓浪屿] 美味零食11选1，美味齐分享",
+        "mainMessage": "¥",
+        "mainMessage2": "11",
+        "subMessage": "门市价:¥15",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售114932",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "6256494",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/6256494.html",
+        "_jumpNeed": {
+            "channel": "food",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/6256494.html",
+            "cate": "3",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c13_e4fe38febfdea0856fca0dedd2d8ec832"
+    },
+    {
+        "imageUrl": "http://p0.meituan.net/w.h/deal/48b4fd2951ab13631208a6a31071e66b32375.jpg",
+        "imageTag": "0",
+        "title": "享食者坚果组合",
+        "subTitle": "[6件包邮] 满6件包邮，每袋108g，满10袋送1袋多味花生",
+        "mainMessage": "¥",
+        "mainMessage2": "7.9",
+        "subMessage": "门市价:¥25",
+        "topRightInfo": "",
+        "bottomRightInfo": "已售52123",
+        "_type": "deal",
+        "_from": "DEAL_GROUP",
+        "_id": "30213744",
+        "_iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/30213744.html",
+        "_jumpNeed": {
+            "channel": "shopping",
+            "iUrl": "imeituan://www.meituan.com/web?url=http://i.meituan.com/shopping/deal/30213744.html",
+            "cate": "4",
+            "optionalattrs": {
+                "11": "{\"endDate\":\"\",\"specialCondition\":\"\",\"startDate\":\"\",\"useDay\":\"1\"}"
+            }
+        },
+        "color": {
+            "mainMessage": "#06c1ae",
+            "subTitle": "#999999",
+            "title": "#333333",
+            "mainMessage2": "#06c1ae",
+            "subMessage": "#999999",
+            "topRightInfo": "#999999",
+            "bottomRightInfo": "#999999"
+        },
+        "stid": "7277947335170570240_c14_e4fe38febfdea0856fca0dedd2d8ec832"
+    }
+    ],
+    "serverInfo": {
+        "useV1": false,
+        "traceId": "90A3BF96-3E18-47C3-B09F-46240692414A",
+        "cost_campaign": 23,
+        "cost_dealService": 12
+    }
+}

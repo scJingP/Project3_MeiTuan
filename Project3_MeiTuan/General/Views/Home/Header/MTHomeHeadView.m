@@ -6,10 +6,10 @@
 //  Copyright © 2016年 tens03. All rights reserved.
 //
 
-#import "MTHomeHeadButtonView.h"
+#import "MTHomeHeadView.h"
 #import "MTCustomButton.h"
 
-@interface MTHomeHeadButtonView()
+@interface MTHomeHeadView()
 <UIScrollViewDelegate>
 @property (strong, nonatomic)NSMutableArray *muImageArray;
 @property (strong, nonatomic)NSMutableArray *muFuncationArray;
@@ -22,7 +22,7 @@
 
 @property (strong, nonatomic)UIPageControl *pageControl;
 @end
-@implementation MTHomeHeadButtonView
+@implementation MTHomeHeadView
 - (instancetype)init
 {
     self = [super init];
@@ -33,7 +33,7 @@
 }
 
 -(void)addToView{
-    self.backgroundColor = [UIColor whiteColor];
+//    self.backgroundColor = [UIColor yellowColor];
     self.frame = CGRectMake(0, 0, 320, 160);
     
     [self addSubview:self.scrollView];
@@ -112,12 +112,12 @@
 }
 
 -(void)buttonClick:(MTCustomButton*)sender{
-
+    NSLog(@"%@ %ld", sender.functionLabel.text, sender.tag);
 }
 
 #pragma mark - UIScrollViewDelegate
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-
+    NSLog(@"hah");
 }
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     if (self.scrollView.contentOffset.x == 320) {
@@ -149,8 +149,8 @@
         _pageControl = [[UIPageControl alloc]init];
         _pageControl.currentPage = 0;
         _pageControl.numberOfPages = 2;
-        _pageControl.currentPageIndicatorTintColor = [UIColor colorWithR:47 g:190 b:169 alpha:1];
-        _pageControl.pageIndicatorTintColor = [UIColor grayColor];
+        _pageControl.currentPageIndicatorTintColor = [UIColor redColor];
+        _pageControl.pageIndicatorTintColor = [UIColor blueColor];
     }
     return _pageControl;
 }
