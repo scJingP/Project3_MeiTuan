@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MTHeadViewButton : UIButton
+@property (strong, nonatomic) UIImageView *imageview;
 
 @end

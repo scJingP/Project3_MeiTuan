@@ -68,7 +68,7 @@
     }];
     [self.distancelabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.areanamelabel);
-        make.trailing.equalTo(@10);
+        make.trailing.equalTo(@-10);
     }];
 }
 
@@ -79,15 +79,6 @@
     }];
     [self.starimageview mas_updateConstraints:^(MASConstraintMaker *make) {
         make.height.equalTo(@20);
-    }];
-    [self.catenamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@40);
-    }];
-    [self.areanamelabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@60);
-    }];
-    [self.marknumber mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@40);
     }];
 
     [super updateConstraints];

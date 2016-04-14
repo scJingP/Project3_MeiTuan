@@ -19,12 +19,13 @@
 		04BFC1271CBB537C0004E9C8 /* MTBassNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFC1241CBB537C0004E9C8 /* MTBassNavigationController.m */; };
 		04BFC1281CBB537C0004E9C8 /* MTBassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFC1261CBB537C0004E9C8 /* MTBassViewController.m */; };
 		04CE51761CBB79D600FF8CB7 /* MTBusineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE51751CBB79D600FF8CB7 /* MTBusineViewController.m */; };
-		04CE51791CBBC73300FF8CB7 /* MTfavoraTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE51781CBBC73300FF8CB7 /* MTfavoraTableView.m */; };
+		04CE517E1CBCD5E900FF8CB7 /* MTsortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE517D1CBCD5E900FF8CB7 /* MTsortTableView.m */; };
+		04CE51951CBCD8DD00FF8CB7 /* MTsortTableVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE51941CBCD8DD00FF8CB7 /* MTsortTableVIewCell.m */; };
+		04CE51981CBDE03900FF8CB7 /* MTsortDetailTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE51971CBDE03900FF8CB7 /* MTsortDetailTableview.m */; };
 		3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2211CB9A54200FF5FDC /* about_praise@2x.png */; };
 		3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2221CB9A54200FF5FDC /* leftImageTest.png */; };
 		3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */; };
 		350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */; };
-		350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */; };
 		35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */; };
 		35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */; };
 		35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */; };
@@ -347,16 +348,18 @@
 		04BFC1261CBB537C0004E9C8 /* MTBassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBassViewController.m; path = Project3_MeiTuan/General/ViewControllers/BassClass/MTBassViewController.m; sourceTree = SOURCE_ROOT; };
 		04CE51741CBB79D600FF8CB7 /* MTBusineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBusineViewController.h; path = Project3_MeiTuan/General/ViewControllers/Busine/MTBusineViewController.h; sourceTree = SOURCE_ROOT; };
 		04CE51751CBB79D600FF8CB7 /* MTBusineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBusineViewController.m; path = Project3_MeiTuan/General/ViewControllers/Busine/MTBusineViewController.m; sourceTree = SOURCE_ROOT; };
-		04CE51771CBBC73300FF8CB7 /* MTfavoraTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTfavoraTableView.h; sourceTree = "<group>"; };
-		04CE51781CBBC73300FF8CB7 /* MTfavoraTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTfavoraTableView.m; sourceTree = "<group>"; };
+		04CE517C1CBCD5E900FF8CB7 /* MTsortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableView.h; sourceTree = "<group>"; };
+		04CE517D1CBCD5E900FF8CB7 /* MTsortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableView.m; sourceTree = "<group>"; };
+		04CE51931CBCD8DD00FF8CB7 /* MTsortTableVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableVIewCell.h; sourceTree = "<group>"; };
+		04CE51941CBCD8DD00FF8CB7 /* MTsortTableVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableVIewCell.m; sourceTree = "<group>"; };
+		04CE51961CBDE03900FF8CB7 /* MTsortDetailTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortDetailTableview.h; sourceTree = "<group>"; };
+		04CE51971CBDE03900FF8CB7 /* MTsortDetailTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortDetailTableview.m; sourceTree = "<group>"; };
 		3509E2211CB9A54200FF5FDC /* about_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_praise@2x.png"; sourceTree = "<group>"; };
 		3509E2221CB9A54200FF5FDC /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
 		3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
 		3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeTableCustomCell.m; sourceTree = "<group>"; };
 		350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_ButtonModal.h; sourceTree = "<group>"; };
 		350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_ButtonModal.m; sourceTree = "<group>"; };
-		350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
-		350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
 		356707971CB92E3E005AB1BE /* LWCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCustomCell.h; sourceTree = "<group>"; };
 		35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
 		35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
@@ -771,18 +774,9 @@
 		044398181CB7DBDE00B27C80 /* Busine */ = {
 			isa = PBXGroup;
 			children = (
-				350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */,
-				350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */,
-				0443981F1CB8A3AF00B27C80 /* MTHeadView.h */,
-				044398201CB8A3AF00B27C80 /* MTHeadView.m */,
-				044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */,
-				044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */,
-				04CE51771CBBC73300FF8CB7 /* MTfavoraTableView.h */,
-				04CE51781CBBC73300FF8CB7 /* MTfavoraTableView.m */,
-				044398191CB7DBDE00B27C80 /* MTBusineCell.h */,
-				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
-				0443981C1CB89EAB00B27C80 /* MTLocationCell.h */,
-				0443981D1CB89EAB00B27C80 /* MTLocationCell.m */,
+				04CE51921CBCD82400FF8CB7 /* SortTableView */,
+				04CE517B1CBC97DA00FF8CB7 /* Head */,
+				04CE517A1CBC97C000FF8CB7 /* BusineTableViewCell */,
 			);
 			path = Busine;
 			sourceTree = "<group>";
@@ -812,6 +806,41 @@
 				049659611CBB4B4500E0707E /* MTHomeViewController.m */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		04CE517A1CBC97C000FF8CB7 /* BusineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				044398191CB7DBDE00B27C80 /* MTBusineCell.h */,
+				0443981A1CB7DBDE00B27C80 /* MTBusineCell.m */,
+				0443981C1CB89EAB00B27C80 /* MTLocationCell.h */,
+				0443981D1CB89EAB00B27C80 /* MTLocationCell.m */,
+			);
+			name = BusineTableViewCell;
+			sourceTree = "<group>";
+		};
+		04CE517B1CBC97DA00FF8CB7 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				0443981F1CB8A3AF00B27C80 /* MTHeadView.h */,
+				044398201CB8A3AF00B27C80 /* MTHeadView.m */,
+				044398221CB8A8CD00B27C80 /* MTHeadViewButton.h */,
+				044398231CB8A8CD00B27C80 /* MTHeadViewButton.m */,
+			);
+			name = Head;
+			sourceTree = "<group>";
+		};
+		04CE51921CBCD82400FF8CB7 /* SortTableView */ = {
+			isa = PBXGroup;
+			children = (
+				04CE517C1CBCD5E900FF8CB7 /* MTsortTableView.h */,
+				04CE517D1CBCD5E900FF8CB7 /* MTsortTableView.m */,
+				04CE51931CBCD8DD00FF8CB7 /* MTsortTableVIewCell.h */,
+				04CE51941CBCD8DD00FF8CB7 /* MTsortTableVIewCell.m */,
+				04CE51961CBDE03900FF8CB7 /* MTsortDetailTableview.h */,
+				04CE51971CBDE03900FF8CB7 /* MTsortDetailTableview.m */,
+			);
+			name = SortTableView;
 			sourceTree = "<group>";
 		};
 		3509E24B1CB9A65B00FF5FDC /* Home */ = {
@@ -1926,15 +1955,16 @@
 				35FB6E011CB6B635002E4A6A /* NSTextAttachment+Addition.m in Sources */,
 				35FB6F0D1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */,
 				35FB6F001CB6B636002E4A6A /* UIImageView+HighlightedWebCache.m in Sources */,
+				04CE517E1CBCD5E900FF8CB7 /* MTsortTableView.m in Sources */,
 				35FB6F191CB6B636002E4A6A /* ZLPhotoPickerCollectionView.m in Sources */,
 				35FB6F051CB6B636002E4A6A /* ZLCamera.m in Sources */,
 				35FB6F1B1CB6B636002E4A6A /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
+				04CE51981CBDE03900FF8CB7 /* MTsortDetailTableview.m in Sources */,
 				35FB6E081CB6B635002E4A6A /* LWBaseModel.m in Sources */,
 				04CE51761CBB79D600FF8CB7 /* MTBusineViewController.m in Sources */,
 				35FB6EF71CB6B636002E4A6A /* SDWebImageDecoder.m in Sources */,
 				35FB6F071CB6B636002E4A6A /* ZLCameraView.m in Sources */,
 				35FB6F151CB6B636002E4A6A /* ZLNavigationController.m in Sources */,
-				350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */,
 				35FB6EF41CB6B636002E4A6A /* NSData+ImageContentType.m in Sources */,
 				044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */,
 				35FB6E071CB6B635002E4A6A /* LWConst.m in Sources */,
@@ -1956,7 +1986,6 @@
 				35FB6E0C1CB6B635002E4A6A /* DACircularProgressView.m in Sources */,
 				35FB6E001CB6B635002E4A6A /* NSString+Addition.m in Sources */,
 				04BFC1271CBB537C0004E9C8 /* MTBassNavigationController.m in Sources */,
-				04CE51791CBBC73300FF8CB7 /* MTfavoraTableView.m in Sources */,
 				35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */,
 				35FB6E0A1CB6B635002E4A6A /* LWBaseResponseModel.m in Sources */,
 				35FB6F061CB6B636002E4A6A /* ZLCameraImageView.m in Sources */,
@@ -1968,6 +1997,7 @@
 				35FB6EFD1CB6B636002E4A6A /* UIImage+GIF.m in Sources */,
 				350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */,
 				35FB6E021CB6B635002E4A6A /* UIColor+Addition.m in Sources */,
+				04CE51951CBCD8DD00FF8CB7 /* MTsortTableVIewCell.m in Sources */,
 				35FB6F0E1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				35FB6E091CB6B635002E4A6A /* LWBaseRequestModel.m in Sources */,
 				35FB6F141CB6B636002E4A6A /* UIViewController+Alert.m in Sources */,

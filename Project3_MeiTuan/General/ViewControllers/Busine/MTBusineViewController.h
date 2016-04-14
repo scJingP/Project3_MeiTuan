@@ -9,5 +9,6 @@
 #import "MTBassViewController.h"
 
 @interface MTBusineViewController : MTBassViewController
+@property (weak, nonatomic) IBOutlet UITableView *allbusinetableview;
 
 @end

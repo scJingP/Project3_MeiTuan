@@ -5,13 +5,10 @@
 
 #import "MTHeadView.h"
 #import <Masonry.h>
-#import "MTHeadButton.h"
-#import "MTsortTableViewCell.h"
 
 static NSString *SortTableViewCell = @"sorttableviewcell";
-@interface MTHeadView ()<UITableViewDataSource,UITableViewDelegate>{
+@interface MTHeadView (){
 }
-
 @end
 @implementation MTHeadView
 
@@ -35,6 +32,9 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     [self addSubview:self.capacitysortbutton];
     [self addSubview:self.locationbutton];
     [self addSubview:self.searchbutton];
+    [self.allclassbutton addSubview:self.allclassbutton.imageview];
+    [self.citybutton addSubview:self.citybutton.imageview];
+    [self.capacitysortbutton addSubview:self.capacitysortbutton.imageview];
 }
 
 #pragma mark - 布局
@@ -69,55 +69,22 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         make.height.equalTo(self.searchbutton);
         make.width.equalTo(self.searchbutton);
     }];
-}
-
-#pragma mark - 按钮点击
-//-(void)busineButtonOnclike:(MTHeadViewButton *)sender{
-//    lineX = sender.leftX + 13;
-//    [self setNeedsUpdateConstraints];
-//    [self needsUpdateConstraints];
-//    [UIView animateWithDuration:0.15 animations:^{
-//        [self layoutIfNeeded];
-//    }];
-//    
-//    if (sender.tag == 0) {
-//    }
-//    if (sender.tag == 1) {
-//    }
-//}
--(void)sortButtonOnclike:(MTHeadViewButton *)sender{
-//    if (sender.selected) {
-//        [self addSubview:self.contanierview];
-//        [self.contanierview addSubview:self.sorttableview];
-//        [self.contanierview mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.leading.trailing.equalTo(self);
-//            make.top.equalTo(self.allclassbutton.mas_bottom);
-//            make.height.equalTo(@370);
-//        }];
-//        [self.sorttableview mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.leading.top.equalTo(self.contanierview);
-//            make.height.equalTo(self.contanierview);
-//            make.width.equalTo(@160);
-//        }];
-//    }else{
-//        self.contanierview.hidden = YES;
-//        self.sorttableview.hidden = YES;
-//    }
-    
-//    sender.selected = !sender.selected;
-}
-
-#pragma mark -UITableViewDataSource&&UITableViewDelegate
-//返回多少个Cell
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
-}
-//创建Cell
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    MTsortTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SortTableViewCell forIndexPath:indexPath];
-    cell.imageView.backgroundColor = [UIColor blackColor];
-    cell.textlabel.text = [@(indexPath.row) stringValue];
-    return cell;
+    [self.allclassbutton.imageview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.trailing.bottom.equalTo(self.allclassbutton);
+        make.height.equalTo(@10);
+        make.width.equalTo(@15);
+    }];
+    [self.citybutton.imageview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.trailing.bottom.equalTo(self.citybutton);
+        make.height.equalTo(@10);
+        make.width.equalTo(@15);
+    }];
+    [self.capacitysortbutton.imageview mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.trailing.bottom.equalTo(self.capacitysortbutton);
+        make.height.equalTo(@10);
+        make.width.equalTo(@15);
+    }];
+   
 }
 
 #pragma mark - Custom
@@ -127,6 +94,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _allbusinebutton.tag = 0;
         [_allbusinebutton setTitle:@"全部商家" forState:UIControlStateNormal];
         [_allbusinebutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
+        [_allbusinebutton setTitleColor:[UIColor colorWithR:39 g:170 b:152 alpha:1] forState:UIControlStateSelected];
         _allbusinebutton.titleLabel.font = [UIFont systemFontOfSize:15];
     }
     return _allbusinebutton;
@@ -138,6 +106,7 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _favorablebusinebutton.tag = 1;
         [_favorablebusinebutton setTitle:@"优惠商家" forState:UIControlStateNormal];
         [_favorablebusinebutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
+        [_favorablebusinebutton setTitleColor:[UIColor colorWithR:39 g:170 b:152 alpha:1] forState:UIControlStateSelected];
         _favorablebusinebutton.titleLabel.font = [UIFont systemFontOfSize:15];
     }
     return _favorablebusinebutton;
@@ -159,14 +128,13 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _allclassbutton.layer.borderWidth = 1;
         _allclassbutton.layer.borderColor = [UIColor colorWithR:232 g:232 b:232 alpha:1].CGColor;
         [_allclassbutton setTitle:@"全部分类" forState:UIControlStateNormal];
+        [_allclassbutton setTitleColor:[UIColor colorWithR:65 g:179 b:162 alpha:1] forState:UIControlStateSelected];
         [_allclassbutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
+        _allclassbutton.imageview.image = [UIImage imageNamed:@"icon_dealsmap_cateArrow"];
         _allclassbutton.titleLabel.font = [UIFont systemFontOfSize:14];
-        [_allclassbutton addTarget:self action:@selector(sortButtonOnclike:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _allclassbutton;
 }
-
-
 -(MTHeadViewButton *)citybutton{
     if (_citybutton == nil) {
         _citybutton = [MTHeadViewButton buttonWithType:UIButtonTypeCustom];
@@ -175,7 +143,9 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _citybutton.layer.borderWidth = 1;
         _citybutton.layer.borderColor = [UIColor colorWithR:232 g:232 b:232 alpha:1].CGColor;
         [_citybutton setTitle:@"全城" forState:UIControlStateNormal];
+        [_citybutton setTitleColor:[UIColor colorWithR:65 g:179 b:162 alpha:1] forState:UIControlStateSelected];
         [_citybutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
+        _citybutton.imageview.image = [UIImage imageNamed:@"icon_dealsmap_cateArrow"];
         _citybutton.titleLabel.font = [UIFont systemFontOfSize:14];
     }
     return _citybutton;
@@ -188,7 +158,9 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
         _capacitysortbutton.layer.borderWidth = 1;
         _capacitysortbutton.layer.borderColor = [UIColor colorWithR:232 g:232 b:232 alpha:1].CGColor;
         [_capacitysortbutton setTitle:@"智能排序" forState:UIControlStateNormal];
+        [_capacitysortbutton setTitleColor:[UIColor colorWithR:65 g:179 b:162 alpha:1] forState:UIControlStateSelected];
         [_capacitysortbutton setTitleColor:[UIColor colorWithR:123 g:123 b:123 alpha:1] forState:UIControlStateNormal];
+        _capacitysortbutton.imageview.image = [UIImage imageNamed:@"icon_dealsmap_cateArrow"];
         _capacitysortbutton.titleLabel.font = [UIFont systemFontOfSize:14];
     }
     return _capacitysortbutton;
@@ -210,21 +182,5 @@ static NSString *SortTableViewCell = @"sorttableviewcell";
     return _searchbutton;
 }
 
--(UIView *)contanierview{
-    if (_contanierview == nil) {
-        _contanierview = [[UIView alloc] init];
-        _contanierview.backgroundColor = [UIColor colorWithR:239 g:239 b:239 alpha:1];
-    }
-    return _contanierview;
-}
-
--(UITableView *)sorttableview{
-    if (_sorttableview == nil) {
-        _sorttableview = [[UITableView alloc] init];
-        [_sorttableview registerClass:[MTsortTableViewCell class] forCellReuseIdentifier:SortTableViewCell];
-
-    }
-    return _sorttableview;
-}
 
 @end

@@ -11,4 +11,25 @@
 
 @implementation MTHeadViewButton
 
+#pragma mark - init
+-(void)awakeFromNib{
+    [self addSubview:self.imageview];
+}
+-(instancetype)init{
+    self = [super init];
+    if (self) {
+        [self addSubview:self.imageview];
+    }
+    return self;
+}
+
+#pragma mark - Custom
+-(UIImageView *)imageview{
+    if (_imageview == nil) {
+        _imageview = [[UIImageView alloc] init];
+        _imageview.layer.masksToBounds= YES;
+    }
+    return _imageview;
+}
+
 @end
