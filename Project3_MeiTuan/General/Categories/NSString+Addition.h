@@ -11,7 +11,7 @@
 @interface NSString (Addition)
 
 /**
- *  计算文本高度
+ *  计算文本大小
  *
  *  @param font      计算的基准字体
  *  @param totalSize 文本的总大小
