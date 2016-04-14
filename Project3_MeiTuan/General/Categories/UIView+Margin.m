@@ -92,6 +92,30 @@
     self.frame = rect;
 }
 
+// 获取、设置 centerX -- 注意：获取centerX是当前视图中心点在当前视图坐标系中的坐标，设置centerX是当前视图中心点在父视图坐标系中的坐标
+- (float)centerX
+{
+    return CGRectGetWidth(self.frame)/2.0;
+}
+- (void)setCenterX:(float)centerX
+{
+    CGRect rect = self.frame;
+    rect.origin.x = centerX-rect.size.width/2.0;
+    self.frame = rect;
+}
+
+// 获取、设置 centerY -- 注意：获取centerY是当前视图中心点在当前视图坐标系中的坐标，设置centerY是当前视图中心点在父视图坐标系中的坐标
+- (float)centerY
+{
+    return CGRectGetHeight(self.frame)/2.0;
+}
+- (void)setCenterY:(float)centerY
+{
+    CGRect rect = self.frame;
+    rect.origin.y = centerY-rect.size.height/2.0;
+    self.frame = rect;
+}
+
 
 
 

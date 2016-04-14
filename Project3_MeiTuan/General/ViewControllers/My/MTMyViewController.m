@@ -43,8 +43,7 @@
 - (NSMutableArray *)arrCellName
 {
     if (_arrCellName == nil) {
-        _arrCellName = [NSMutableArray arrayWithObjects:@"我的订单",@"我的钱包",@"抵用券",@"会员卡",
-                        @"积分商城",@"免费福利",@"今日推荐",@"联系客服",@"我要合作",nil];
+        _arrCellName = [NSMutableArray arrayWithObjects:@"我的订单",@"我的钱包",@"抵用券",@"会员卡",@"积分商城",@"免费福利",@"今日推荐",@"联系客服",@"我要合作",nil];
     }
     return _arrCellName;
 }
@@ -107,6 +106,11 @@
     return 0;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 #pragma mark - private
 - (NSInteger)getIndex:(NSIndexPath *)indexPath
 {
@@ -120,5 +124,6 @@
     count += row;
     return count;
 }
+
 
 @end

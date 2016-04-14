@@ -22,6 +22,10 @@
 
 @property(nonatomic,assign)float rightX;
 
+@property(nonatomic, assign)float centerX;
+
+@property(nonatomic, assign)float centerY;
+
 
 
 @end

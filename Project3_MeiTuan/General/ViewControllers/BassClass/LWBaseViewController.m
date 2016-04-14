@@ -9,6 +9,7 @@
 #import "LWBaseViewController.h"
 #import <MBProgressHUD.h>
 #import <objc/runtime.h>
+#import <Masonry.h>
 
 @interface LWBaseViewController ()
 
@@ -25,11 +26,7 @@ const char *hudKey;
     self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+#pragma mark - private
 - (void)showAlertViewWithText:(NSString *)text afterDelay:(NSTimeInterval)delay
 {
     MBProgressHUD *hub = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
@@ -48,5 +45,11 @@ const char *hudKey;
     MBProgressHUD *hud = objc_getAssociatedObject(self, hudKey);
     [hud hide:YES];
 }
+
+- (void)showMessageViewWithText:(NSString *)text afterDelay:(NSTimeInterval)delay
+{
+    
+}
+
 
 @end
