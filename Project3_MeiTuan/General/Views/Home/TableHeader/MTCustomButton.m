@@ -25,7 +25,7 @@
         [self addToView];
     }
     return self;
-}
+} 
 
 -(void)addToView{
     [self addSubview:self.iconImage];

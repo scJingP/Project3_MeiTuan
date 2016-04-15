@@ -13,5 +13,5 @@
 @interface MTHomeHeadView : UIView
 
 
--(void)loadHeadView:(CGRect)frame;
+
 @end

@@ -29,6 +29,7 @@
     if (self) {
         [self addToView];
     }
+    
     return self;
 }
 

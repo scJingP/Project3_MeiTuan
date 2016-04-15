@@ -2,18 +2,13 @@
 //  MTHomeTableCustomCell.h
 //  Project3_MeiTuan
 //
-//  Created by tens03 on 16/4/10.
+//  Created by tens03 on 16/4/14.
 //  Copyright © 2016年 tens03. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface MTHomeTableCustomCell : UITableViewCell
-
-//@property(strong, nonatomic)NSString * range;//"伊藤/世豪广场",
-//@property(strong, nonatomic)NSString * mtitle;//": "100元代金券1张，除酒水外全场通用",
-//@property(strong, nonatomic)NSString * title;//": "100元代金券1张，可叠加2张，免预约",
-//@property(strong, nonatomic)NSNumber * value;//": 100,
 
 @property(strong, nonatomic)UIView *contentVV;
 
@@ -32,4 +27,5 @@
 @property(strong, nonatomic)UILabel *originPriceLabel;
 ///.cell 销量(已售 数)
 @property(strong, nonatomic)UILabel *salesCountLabel;
+
 @end

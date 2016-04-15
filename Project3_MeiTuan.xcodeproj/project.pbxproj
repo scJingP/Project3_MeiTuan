@@ -17,15 +17,38 @@
 		049080181CBB465D00F42793 /* LWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049080171CBB465D00F42793 /* LWBaseViewController.m */; };
 		0496595D1CBB4AF800E0707E /* MTMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049659591CBB4AF800E0707E /* MTMoreViewController.m */; };
 		0496595E1CBB4AF800E0707E /* MTMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496595C1CBB4AF800E0707E /* MTMyViewController.m */; };
-		049659621CBB4B4500E0707E /* MTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049659611CBB4B4500E0707E /* MTHomeViewController.m */; };
 		04BFC1271CBB537C0004E9C8 /* MTBassNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFC1241CBB537C0004E9C8 /* MTBassNavigationController.m */; };
 		04BFC1281CBB537C0004E9C8 /* MTBassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BFC1261CBB537C0004E9C8 /* MTBassViewController.m */; };
 		04CE51761CBB79D600FF8CB7 /* MTBusineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE51751CBB79D600FF8CB7 /* MTBusineViewController.m */; };
-		3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2211CB9A54200FF5FDC /* about_praise@2x.png */; };
-		3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3509E2221CB9A54200FF5FDC /* leftImageTest.png */; };
-		3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */; };
 		350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */; };
 		350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */; };
+		35B6D2FC1CBFF13500ADB01B /* about_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2F51CBFF13500ADB01B /* about_praise@2x.png */; };
+		35B6D2FD1CBFF13500ADB01B /* icon_invite_share_logo_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2F61CBFF13500ADB01B /* icon_invite_share_logo_weibo@2x.png */; };
+		35B6D2FE1CBFF13500ADB01B /* icon_login_qqLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2F71CBFF13500ADB01B /* icon_login_qqLogo@2x.png */; };
+		35B6D2FF1CBFF13500ADB01B /* icon_message_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2F81CBFF13500ADB01B /* icon_message_highlighted.png */; };
+		35B6D3001CBFF13500ADB01B /* icon_search_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2F91CBFF13500ADB01B /* icon_search_empty.png */; };
+		35B6D3011CBFF13500ADB01B /* icon_unfold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2FA1CBFF13500ADB01B /* icon_unfold@2x.png */; };
+		35B6D3021CBFF13500ADB01B /* leftImageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B6D2FB1CBFF13500ADB01B /* leftImageTest.png */; };
+		35B6D30D1CBFF28000ADB01B /* MTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3041CBFF28000ADB01B /* MTHomeViewController.m */; };
+		35B6D3131CBFF29600ADB01B /* MTimageSearchLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3121CBFF29600ADB01B /* MTimageSearchLoginVC.m */; };
+		35B6D3181CBFF2A900ADB01B /* MTLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3151CBFF2A900ADB01B /* MTLoginVC.m */; };
+		35B6D3191CBFF2A900ADB01B /* MTTextSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3171CBFF2A900ADB01B /* MTTextSearchVC.m */; };
+		35B6D3821CBFF34D00ADB01B /* MTAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D37B1CBFF34D00ADB01B /* MTAdButton.m */; };
+		35B6D3831CBFF34D00ADB01B /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D37D1CBFF34D00ADB01B /* MTCustomButton.m */; };
+		35B6D3841CBFF34D00ADB01B /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D37F1CBFF34D00ADB01B /* MTHomeHeadView.m */; };
+		35B6D3851CBFF34D00ADB01B /* MTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3811CBFF34D00ADB01B /* MTTestView.m */; };
+		35B6D38C1CBFF37200ADB01B /* MTImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3871CBFF37200ADB01B /* MTImageButton.m */; };
+		35B6D38D1CBFF37200ADB01B /* MTLocationNameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3891CBFF37200ADB01B /* MTLocationNameButton.m */; };
+		35B6D38E1CBFF37200ADB01B /* MTTextSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D38B1CBFF37200ADB01B /* MTTextSearchButton.m */; };
+		35B6D3B31CBFF39C00ADB01B /* MTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3A61CBFF39C00ADB01B /* MTCollectionView.m */; };
+		35B6D3B41CBFF39C00ADB01B /* MTimageFunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3A81CBFF39C00ADB01B /* MTimageFunctionButton.m */; };
+		35B6D3B51CBFF39C00ADB01B /* MTimageSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3AA1CBFF39C00ADB01B /* MTimageSearchView.m */; };
+		35B6D3B61CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3AC1CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.m */; };
+		35B6D3B71CBFF39C00ADB01B /* MTLocationCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3AE1CBFF39C00ADB01B /* MTLocationCollectionView.m */; };
+		35B6D3B81CBFF39C00ADB01B /* MTTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3B01CBFF39C00ADB01B /* MTTextButton.m */; };
+		35B6D3B91CBFF39C00ADB01B /* MTTouchesBeginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3B21CBFF39C00ADB01B /* MTTouchesBeginView.m */; };
+		35B6D3BF1CBFF41100ADB01B /* MTHomeTableCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3BE1CBFF41100ADB01B /* MTHomeTableCustomCell.m */; };
+		35B6D3C21CBFF6DA00ADB01B /* MTTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B6D3C11CBFF6DA00ADB01B /* MTTestVC.m */; };
 		35B9272C1CBE0CE3005E990B /* LWZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B9272B1CBE0CE3005E990B /* LWZBarReaderViewController.m */; };
 		35DC89611CBD084200BDDB80 /* LWMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC89601CBD084200BDDB80 /* LWMessageView.m */; };
 		35DC89871CBD0EDF00BDDB80 /* MTSweepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC89861CBD0EDF00BDDB80 /* MTSweepViewController.m */; };
@@ -35,8 +58,6 @@
 		35DC89B51CBD1D9500BDDB80 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 35DC89B01CBD1D9500BDDB80 /* zbar-help.html */; };
 		35DC89B61CBD1D9500BDDB80 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC89B11CBD1D9500BDDB80 /* zbar-helpicons.png */; };
 		35DC89B71CBD1D9500BDDB80 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC89B21CBD1D9500BDDB80 /* zbar-samples.png */; };
-		35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */; };
-		35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */; };
 		35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */; };
 		35F032C51CBB3B2F00671A6D /* MTMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */; };
 		35FB6C601CB6B612002E4A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB6C5F1CB6B612002E4A6A /* main.m */; };
@@ -353,23 +374,64 @@
 		049659591CBB4AF800E0707E /* MTMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreViewController.m; sourceTree = "<group>"; };
 		0496595B1CBB4AF800E0707E /* MTMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyViewController.h; sourceTree = "<group>"; };
 		0496595C1CBB4AF800E0707E /* MTMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMyViewController.m; sourceTree = "<group>"; };
-		049659601CBB4B4500E0707E /* MTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeViewController.h; sourceTree = "<group>"; };
-		049659611CBB4B4500E0707E /* MTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeViewController.m; sourceTree = "<group>"; };
 		04BFC1231CBB537C0004E9C8 /* MTBassNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBassNavigationController.h; path = Project3_MeiTuan/General/ViewControllers/BassClass/MTBassNavigationController.h; sourceTree = SOURCE_ROOT; };
 		04BFC1241CBB537C0004E9C8 /* MTBassNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBassNavigationController.m; path = Project3_MeiTuan/General/ViewControllers/BassClass/MTBassNavigationController.m; sourceTree = SOURCE_ROOT; };
 		04BFC1251CBB537C0004E9C8 /* MTBassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBassViewController.h; path = Project3_MeiTuan/General/ViewControllers/BassClass/MTBassViewController.h; sourceTree = SOURCE_ROOT; };
 		04BFC1261CBB537C0004E9C8 /* MTBassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBassViewController.m; path = Project3_MeiTuan/General/ViewControllers/BassClass/MTBassViewController.m; sourceTree = SOURCE_ROOT; };
 		04CE51741CBB79D600FF8CB7 /* MTBusineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTBusineViewController.h; path = Project3_MeiTuan/General/ViewControllers/Busine/MTBusineViewController.h; sourceTree = SOURCE_ROOT; };
 		04CE51751CBB79D600FF8CB7 /* MTBusineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTBusineViewController.m; path = Project3_MeiTuan/General/ViewControllers/Busine/MTBusineViewController.m; sourceTree = SOURCE_ROOT; };
-		3509E2211CB9A54200FF5FDC /* about_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_praise@2x.png"; sourceTree = "<group>"; };
-		3509E2221CB9A54200FF5FDC /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
-		3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
-		3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeTableCustomCell.m; sourceTree = "<group>"; };
 		350C9E941CBB3C33005C70B6 /* MTMoreCell_ButtonModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_ButtonModal.h; sourceTree = "<group>"; };
 		350C9E951CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_ButtonModal.m; sourceTree = "<group>"; };
 		350D85961CBB37ED00E5E10A /* MTsortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTsortTableViewCell.h; sourceTree = "<group>"; };
 		350D85971CBB37ED00E5E10A /* MTsortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTsortTableViewCell.m; sourceTree = "<group>"; };
 		356707971CB92E3E005AB1BE /* LWCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCustomCell.h; sourceTree = "<group>"; };
+		35B6D2F51CBFF13500ADB01B /* about_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_praise@2x.png"; sourceTree = "<group>"; };
+		35B6D2F61CBFF13500ADB01B /* icon_invite_share_logo_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_invite_share_logo_weibo@2x.png"; sourceTree = "<group>"; };
+		35B6D2F71CBFF13500ADB01B /* icon_login_qqLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_login_qqLogo@2x.png"; sourceTree = "<group>"; };
+		35B6D2F81CBFF13500ADB01B /* icon_message_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_message_highlighted.png; sourceTree = "<group>"; };
+		35B6D2F91CBFF13500ADB01B /* icon_search_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search_empty.png; sourceTree = "<group>"; };
+		35B6D2FA1CBFF13500ADB01B /* icon_unfold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_unfold@2x.png"; sourceTree = "<group>"; };
+		35B6D2FB1CBFF13500ADB01B /* leftImageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftImageTest.png; sourceTree = "<group>"; };
+		35B6D3031CBFF28000ADB01B /* MTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeViewController.h; sourceTree = "<group>"; };
+		35B6D3041CBFF28000ADB01B /* MTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeViewController.m; sourceTree = "<group>"; };
+		35B6D3111CBFF29600ADB01B /* MTimageSearchLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTimageSearchLoginVC.h; sourceTree = "<group>"; };
+		35B6D3121CBFF29600ADB01B /* MTimageSearchLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTimageSearchLoginVC.m; sourceTree = "<group>"; };
+		35B6D3141CBFF2A900ADB01B /* MTLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLoginVC.h; sourceTree = "<group>"; };
+		35B6D3151CBFF2A900ADB01B /* MTLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLoginVC.m; sourceTree = "<group>"; };
+		35B6D3161CBFF2A900ADB01B /* MTTextSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTextSearchVC.h; sourceTree = "<group>"; };
+		35B6D3171CBFF2A900ADB01B /* MTTextSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextSearchVC.m; sourceTree = "<group>"; };
+		35B6D37A1CBFF34D00ADB01B /* MTAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAdButton.h; sourceTree = "<group>"; };
+		35B6D37B1CBFF34D00ADB01B /* MTAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAdButton.m; sourceTree = "<group>"; };
+		35B6D37C1CBFF34D00ADB01B /* MTCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomButton.h; sourceTree = "<group>"; };
+		35B6D37D1CBFF34D00ADB01B /* MTCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomButton.m; sourceTree = "<group>"; };
+		35B6D37E1CBFF34D00ADB01B /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
+		35B6D37F1CBFF34D00ADB01B /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
+		35B6D3801CBFF34D00ADB01B /* MTTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTestView.h; sourceTree = "<group>"; };
+		35B6D3811CBFF34D00ADB01B /* MTTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTestView.m; sourceTree = "<group>"; };
+		35B6D3861CBFF37200ADB01B /* MTImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTImageButton.h; sourceTree = "<group>"; };
+		35B6D3871CBFF37200ADB01B /* MTImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTImageButton.m; sourceTree = "<group>"; };
+		35B6D3881CBFF37200ADB01B /* MTLocationNameButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationNameButton.h; sourceTree = "<group>"; };
+		35B6D3891CBFF37200ADB01B /* MTLocationNameButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationNameButton.m; sourceTree = "<group>"; };
+		35B6D38A1CBFF37200ADB01B /* MTTextSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTextSearchButton.h; sourceTree = "<group>"; };
+		35B6D38B1CBFF37200ADB01B /* MTTextSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextSearchButton.m; sourceTree = "<group>"; };
+		35B6D3A51CBFF39C00ADB01B /* MTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCollectionView.h; sourceTree = "<group>"; };
+		35B6D3A61CBFF39C00ADB01B /* MTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCollectionView.m; sourceTree = "<group>"; };
+		35B6D3A71CBFF39C00ADB01B /* MTimageFunctionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTimageFunctionButton.h; sourceTree = "<group>"; };
+		35B6D3A81CBFF39C00ADB01B /* MTimageFunctionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTimageFunctionButton.m; sourceTree = "<group>"; };
+		35B6D3A91CBFF39C00ADB01B /* MTimageSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTimageSearchView.h; sourceTree = "<group>"; };
+		35B6D3AA1CBFF39C00ADB01B /* MTimageSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTimageSearchView.m; sourceTree = "<group>"; };
+		35B6D3AB1CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationCollectionCellCollectionViewCell.h; sourceTree = "<group>"; };
+		35B6D3AC1CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationCollectionCellCollectionViewCell.m; sourceTree = "<group>"; };
+		35B6D3AD1CBFF39C00ADB01B /* MTLocationCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationCollectionView.h; sourceTree = "<group>"; };
+		35B6D3AE1CBFF39C00ADB01B /* MTLocationCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocationCollectionView.m; sourceTree = "<group>"; };
+		35B6D3AF1CBFF39C00ADB01B /* MTTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTextButton.h; sourceTree = "<group>"; };
+		35B6D3B01CBFF39C00ADB01B /* MTTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextButton.m; sourceTree = "<group>"; };
+		35B6D3B11CBFF39C00ADB01B /* MTTouchesBeginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTouchesBeginView.h; sourceTree = "<group>"; };
+		35B6D3B21CBFF39C00ADB01B /* MTTouchesBeginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTouchesBeginView.m; sourceTree = "<group>"; };
+		35B6D3BD1CBFF41100ADB01B /* MTHomeTableCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeTableCustomCell.h; sourceTree = "<group>"; };
+		35B6D3BE1CBFF41100ADB01B /* MTHomeTableCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeTableCustomCell.m; sourceTree = "<group>"; };
+		35B6D3C01CBFF6DA00ADB01B /* MTTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTestVC.h; sourceTree = "<group>"; };
+		35B6D3C11CBFF6DA00ADB01B /* MTTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTestVC.m; sourceTree = "<group>"; };
 		35B9272A1CBE0CE3005E990B /* LWZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWZBarReaderViewController.h; sourceTree = "<group>"; };
 		35B9272B1CBE0CE3005E990B /* LWZBarReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWZBarReaderViewController.m; sourceTree = "<group>"; };
 		35DC895F1CBD084200BDDB80 /* LWMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMessageView.h; sourceTree = "<group>"; };
@@ -405,10 +467,6 @@
 		35DC89B01CBD1D9500BDDB80 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		35DC89B11CBD1D9500BDDB80 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		35DC89B21CBD1D9500BDDB80 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
-		35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHomeHeadView.h; sourceTree = "<group>"; };
-		35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHomeHeadView.m; sourceTree = "<group>"; };
-		35EC8FDB1CBA9E8E0055283F /* MTCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomButton.h; sourceTree = "<group>"; };
-		35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomButton.m; sourceTree = "<group>"; };
 		35F032BF1CBB3B2F00671A6D /* MTMoreCell_TextModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMoreCell_TextModal.h; sourceTree = "<group>"; };
 		35F032C01CBB3B2F00671A6D /* MTMoreCell_TextModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMoreCell_TextModal.m; sourceTree = "<group>"; };
 		35F032C11CBB3B2F00671A6D /* MTMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMyTableViewCell.h; sourceTree = "<group>"; };
@@ -861,8 +919,10 @@
 		0496595F1CBB4B4500E0707E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				049659601CBB4B4500E0707E /* MTHomeViewController.h */,
-				049659611CBB4B4500E0707E /* MTHomeViewController.m */,
+				35B6D3031CBFF28000ADB01B /* MTHomeViewController.h */,
+				35B6D3041CBFF28000ADB01B /* MTHomeViewController.m */,
+				35B6D3051CBFF28000ADB01B /* Present */,
+				35B6D3081CBFF28000ADB01B /* Push */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -870,22 +930,12 @@
 		3509E24B1CB9A65B00FF5FDC /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3509E24C1CB9A65B00FF5FDC /* Header */,
-				3509E24D1CB9A6B600FF5FDC /* MTHomeTableCustomCell.h */,
-				3509E24E1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m */,
+				35B6D34D1CBFF33500ADB01B /* TableHeader */,
+				35B6D3561CBFF33500ADB01B /* Top */,
+				35B6D3BD1CBFF41100ADB01B /* MTHomeTableCustomCell.h */,
+				35B6D3BE1CBFF41100ADB01B /* MTHomeTableCustomCell.m */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		3509E24C1CB9A65B00FF5FDC /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				35EC8F8D1CBA23530055283F /* MTHomeHeadView.h */,
-				35EC8F8E1CBA23530055283F /* MTHomeHeadView.m */,
-				35EC8FDB1CBA9E8E0055283F /* MTCustomButton.h */,
-				35EC8FDC1CBA9E8E0055283F /* MTCustomButton.m */,
-			);
-			path = Header;
 			sourceTree = "<group>";
 		};
 		35163CEA1CBB483B002ECD33 /* More */ = {
@@ -906,6 +956,78 @@
 				35F032C21CBB3B2F00671A6D /* MTMyTableViewCell.m */,
 			);
 			name = My;
+			sourceTree = "<group>";
+		};
+		35B6D3051CBFF28000ADB01B /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				35B6D3111CBFF29600ADB01B /* MTimageSearchLoginVC.h */,
+				35B6D3121CBFF29600ADB01B /* MTimageSearchLoginVC.m */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		35B6D3081CBFF28000ADB01B /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				35B6D3141CBFF2A900ADB01B /* MTLoginVC.h */,
+				35B6D3151CBFF2A900ADB01B /* MTLoginVC.m */,
+				35B6D3161CBFF2A900ADB01B /* MTTextSearchVC.h */,
+				35B6D3171CBFF2A900ADB01B /* MTTextSearchVC.m */,
+				35B6D3C01CBFF6DA00ADB01B /* MTTestVC.h */,
+				35B6D3C11CBFF6DA00ADB01B /* MTTestVC.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		35B6D34D1CBFF33500ADB01B /* TableHeader */ = {
+			isa = PBXGroup;
+			children = (
+				35B6D37A1CBFF34D00ADB01B /* MTAdButton.h */,
+				35B6D37B1CBFF34D00ADB01B /* MTAdButton.m */,
+				35B6D37C1CBFF34D00ADB01B /* MTCustomButton.h */,
+				35B6D37D1CBFF34D00ADB01B /* MTCustomButton.m */,
+				35B6D37E1CBFF34D00ADB01B /* MTHomeHeadView.h */,
+				35B6D37F1CBFF34D00ADB01B /* MTHomeHeadView.m */,
+				35B6D3801CBFF34D00ADB01B /* MTTestView.h */,
+				35B6D3811CBFF34D00ADB01B /* MTTestView.m */,
+			);
+			path = TableHeader;
+			sourceTree = "<group>";
+		};
+		35B6D3561CBFF33500ADB01B /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				35B6D38F1CBFF38500ADB01B /* buttonClick */,
+				35B6D3861CBFF37200ADB01B /* MTImageButton.h */,
+				35B6D3871CBFF37200ADB01B /* MTImageButton.m */,
+				35B6D3881CBFF37200ADB01B /* MTLocationNameButton.h */,
+				35B6D3891CBFF37200ADB01B /* MTLocationNameButton.m */,
+				35B6D38A1CBFF37200ADB01B /* MTTextSearchButton.h */,
+				35B6D38B1CBFF37200ADB01B /* MTTextSearchButton.m */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		35B6D38F1CBFF38500ADB01B /* buttonClick */ = {
+			isa = PBXGroup;
+			children = (
+				35B6D3A51CBFF39C00ADB01B /* MTCollectionView.h */,
+				35B6D3A61CBFF39C00ADB01B /* MTCollectionView.m */,
+				35B6D3A71CBFF39C00ADB01B /* MTimageFunctionButton.h */,
+				35B6D3A81CBFF39C00ADB01B /* MTimageFunctionButton.m */,
+				35B6D3A91CBFF39C00ADB01B /* MTimageSearchView.h */,
+				35B6D3AA1CBFF39C00ADB01B /* MTimageSearchView.m */,
+				35B6D3AB1CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.h */,
+				35B6D3AC1CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.m */,
+				35B6D3AD1CBFF39C00ADB01B /* MTLocationCollectionView.h */,
+				35B6D3AE1CBFF39C00ADB01B /* MTLocationCollectionView.m */,
+				35B6D3AF1CBFF39C00ADB01B /* MTTextButton.h */,
+				35B6D3B01CBFF39C00ADB01B /* MTTextButton.m */,
+				35B6D3B11CBFF39C00ADB01B /* MTTouchesBeginView.h */,
+				35B6D3B21CBFF39C00ADB01B /* MTTouchesBeginView.m */,
+			);
+			path = buttonClick;
 			sourceTree = "<group>";
 		};
 		35B927291CBE0CE3005E990B /* LWZBarReaderViewController */ = {
@@ -1145,8 +1267,13 @@
 		35FB6C9C1CB6B635002E4A6A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3509E2211CB9A54200FF5FDC /* about_praise@2x.png */,
-				3509E2221CB9A54200FF5FDC /* leftImageTest.png */,
+				35B6D2F51CBFF13500ADB01B /* about_praise@2x.png */,
+				35B6D2F61CBFF13500ADB01B /* icon_invite_share_logo_weibo@2x.png */,
+				35B6D2F71CBFF13500ADB01B /* icon_login_qqLogo@2x.png */,
+				35B6D2F81CBFF13500ADB01B /* icon_message_highlighted.png */,
+				35B6D2F91CBFF13500ADB01B /* icon_search_empty.png */,
+				35B6D2FA1CBFF13500ADB01B /* icon_unfold@2x.png */,
+				35B6D2FB1CBFF13500ADB01B /* leftImageTest.png */,
 				35FB6C9D1CB6B635002E4A6A /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -1775,6 +1902,7 @@
 				35FB6E901CB6B636002E4A6A /* lxh_haobang.png in Resources */,
 				35FB6EB91CB6B636002E4A6A /* lxh_pili.png in Resources */,
 				35FB6EBF1CB6B636002E4A6A /* lxh_qiubite.png in Resources */,
+				35B6D2FD1CBFF13500ADB01B /* icon_invite_share_logo_weibo@2x.png in Resources */,
 				35FB6E4D1CB6B635002E4A6A /* defaultInfo.plist in Resources */,
 				35FB6E931CB6B636002E4A6A /* lxh_haojiong.png in Resources */,
 				35FB6EAB1CB6B636002E4A6A /* lxh_leifeng.png in Resources */,
@@ -1811,6 +1939,7 @@
 				35FB6E161CB6B635002E4A6A /* d_chanzui@2x.png in Resources */,
 				35FB6E511CB6B635002E4A6A /* f_meng@2x.png in Resources */,
 				35FB6E211CB6B635002E4A6A /* d_han@2x.png in Resources */,
+				35B6D3021CBFF13500ADB01B /* leftImageTest.png in Resources */,
 				35FB6E131CB6B635002E4A6A /* d_beishang@2x.png in Resources */,
 				35FB6E331CB6B635002E4A6A /* d_qinqin@2x.png in Resources */,
 				35FB6E321CB6B635002E4A6A /* d_qian@2x.png in Resources */,
@@ -1820,9 +1949,11 @@
 				35FB6EC01CB6B636002E4A6A /* lxh_qiubite@2x.png in Resources */,
 				35FB6EF11CB6B636002E4A6A /* lxhInfo.plist in Resources */,
 				35FB6E991CB6B636002E4A6A /* lxh_holdzhu.png in Resources */,
+				35B6D3001CBFF13500ADB01B /* icon_search_empty.png in Resources */,
 				35FB6E2F1CB6B635002E4A6A /* d_nu@2x.png in Resources */,
 				35FB6E111CB6B635002E4A6A /* d_aoteman@2x.png in Resources */,
 				35FB6E411CB6B635002E4A6A /* d_xiongmao@2x.png in Resources */,
+				35B6D2FC1CBFF13500ADB01B /* about_praise@2x.png in Resources */,
 				35FB6E491CB6B635002E4A6A /* d_zhuakuang@2x.png in Resources */,
 				35FB6F1E1CB6B636002E4A6A /* ZLPhotoLib.bundle in Resources */,
 				35FB6EBE1CB6B636002E4A6A /* lxh_qiubite.gif in Resources */,
@@ -1837,6 +1968,7 @@
 				35FB6EA81CB6B636002E4A6A /* lxh_kunsile.png in Resources */,
 				35FB6E881CB6B636002E4A6A /* lxh_deyidexiao@2x.png in Resources */,
 				35FB6EC51CB6B636002E4A6A /* lxh_quntiweiguan.png in Resources */,
+				35B6D3011CBFF13500ADB01B /* icon_unfold@2x.png in Resources */,
 				35FB6E4F1CB6B635002E4A6A /* f_hufen@2x.png in Resources */,
 				35FB6E341CB6B635002E4A6A /* d_shengbing@2x.png in Resources */,
 				35FB6E171CB6B635002E4A6A /* d_chijing@2x.png in Resources */,
@@ -1902,6 +2034,7 @@
 				35DC89B61CBD1D9500BDDB80 /* zbar-helpicons.png in Resources */,
 				35FB6ECF1CB6B636002E4A6A /* lxh_tuijian@2x.png in Resources */,
 				35FB6E771CB6B636002E4A6A /* lxh_beidian.gif in Resources */,
+				35B6D2FE1CBFF13500ADB01B /* icon_login_qqLogo@2x.png in Resources */,
 				35FB6ECC1CB6B636002E4A6A /* lxh_toule@2x.png in Resources */,
 				35FB6E471CB6B635002E4A6A /* d_yun@2x.png in Resources */,
 				35FB6E4C1CB6B635002E4A6A /* d_zuohengheng@2x.png in Resources */,
@@ -1932,6 +2065,7 @@
 				35FB6E2E1CB6B635002E4A6A /* d_nanhaier@2x.png in Resources */,
 				35FB6E5A1CB6B636002E4A6A /* h_ok@2x.png in Resources */,
 				35FB6E191CB6B635002E4A6A /* d_dahaqi@2x.png in Resources */,
+				35B6D2FF1CBFF13500ADB01B /* icon_message_highlighted.png in Resources */,
 				35FB6E781CB6B636002E4A6A /* lxh_beidian.png in Resources */,
 				35FB6ED51CB6B636002E4A6A /* lxh_xiangyixiang@2x.png in Resources */,
 				35FB6EB41CB6B636002E4A6A /* lxh_oye.gif in Resources */,
@@ -1976,10 +2110,8 @@
 				35FB6EB01CB6B636002E4A6A /* lxh_meigui.gif in Resources */,
 				35FB6E2D1CB6B635002E4A6A /* d_madaochenggong@2x.png in Resources */,
 				35FB6EB51CB6B636002E4A6A /* lxh_oye.png in Resources */,
-				3509E2231CB9A54200FF5FDC /* about_praise@2x.png in Resources */,
 				35FB6E591CB6B636002E4A6A /* h_lai@2x.png in Resources */,
 				35FB6E641CB6B636002E4A6A /* o_huatong@2x.png in Resources */,
-				3509E2241CB9A54200FF5FDC /* leftImageTest.png in Resources */,
 				35FB6E6A1CB6B636002E4A6A /* o_yinyue@2x.png in Resources */,
 				35FB6E461CB6B635002E4A6A /* d_youhengheng@2x.png in Resources */,
 				35FB6E3A1CB6B635002E4A6A /* d_taikaixin@2x.png in Resources */,
@@ -2059,16 +2191,14 @@
 				041892011CBFA23E00ADFE4F /* MTsortDetailTableview.m in Sources */,
 				35FB6F0F1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
 				35FB6F101CB6B636002E4A6A /* ZLPhotoPickerCustomToolBarView.m in Sources */,
-				3509E24F1CB9A6B600FF5FDC /* MTHomeTableCustomCell.m in Sources */,
 				0496595D1CBB4AF800E0707E /* MTMoreViewController.m in Sources */,
-				35EC8FDD1CBA9E8E0055283F /* MTCustomButton.m in Sources */,
 				04BFC1281CBB537C0004E9C8 /* MTBassViewController.m in Sources */,
 				35FB6EFB1CB6B636002E4A6A /* SDWebImagePrefetcher.m in Sources */,
 				35FB6E051CB6B635002E4A6A /* UIView+Margin.m in Sources */,
 				35FB6EFF1CB6B636002E4A6A /* UIImage+WebP.m in Sources */,
 				35FB6F011CB6B636002E4A6A /* UIImageView+WebCache.m in Sources */,
-				35EC8F8F1CBA23530055283F /* MTHomeHeadView.m in Sources */,
 				35FB6EF91CB6B636002E4A6A /* SDWebImageDownloaderOperation.m in Sources */,
+				35B6D3831CBFF34D00ADB01B /* MTCustomButton.m in Sources */,
 				0443981E1CB89EAB00B27C80 /* MTLocationCell.m in Sources */,
 				35FB6E011CB6B635002E4A6A /* NSTextAttachment+Addition.m in Sources */,
 				35FB6F0D1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */,
@@ -2080,24 +2210,29 @@
 				04CE51761CBB79D600FF8CB7 /* MTBusineViewController.m in Sources */,
 				35FB6EF71CB6B636002E4A6A /* SDWebImageDecoder.m in Sources */,
 				35FB6F071CB6B636002E4A6A /* ZLCameraView.m in Sources */,
+				35B6D3B71CBFF39C00ADB01B /* MTLocationCollectionView.m in Sources */,
 				35FB6F151CB6B636002E4A6A /* ZLNavigationController.m in Sources */,
+				35B6D3B41CBFF39C00ADB01B /* MTimageFunctionButton.m in Sources */,
 				350D85981CBB37ED00E5E10A /* MTsortTableViewCell.m in Sources */,
 				35FB6EF41CB6B636002E4A6A /* NSData+ImageContentType.m in Sources */,
 				044398171CB7DBBA00B27C80 /* MTMainTabBarController.m in Sources */,
 				35FB6E071CB6B635002E4A6A /* LWConst.m in Sources */,
-				049659621CBB4B4500E0707E /* MTHomeViewController.m in Sources */,
 				35FB6F111CB6B636002E4A6A /* ZLPhotoAssets.m in Sources */,
+				35B6D3851CBFF34D00ADB01B /* MTTestView.m in Sources */,
 				35FB6F171CB6B636002E4A6A /* ZLPhotoPickerGroupViewController.m in Sources */,
 				35FB6F0B1CB6B636002E4A6A /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
 				044398241CB8A8CD00B27C80 /* MTHeadViewButton.m in Sources */,
 				35FB6F161CB6B636002E4A6A /* ZLPhotoPickerAssetsViewController.m in Sources */,
 				35FB6E0D1CB6B635002E4A6A /* DALabeledCircularProgressView.m in Sources */,
+				35B6D38D1CBFF37200ADB01B /* MTLocationNameButton.m in Sources */,
 				35FB6EF51CB6B636002E4A6A /* SDImageCache.m in Sources */,
 				35FB6F1C1CB6B636002E4A6A /* ZLPhotoPickerGroupTableViewCell.m in Sources */,
 				35FB6DFF1CB6B635002E4A6A /* NSAttributedString+Addition.m in Sources */,
 				35FB6F0A1CB6B636002E4A6A /* ZLPhotoRect.m in Sources */,
+				35B6D3131CBFF29600ADB01B /* MTimageSearchLoginVC.m in Sources */,
 				35FB6EF21CB6B636002E4A6A /* LWPalacePictureView.m in Sources */,
 				35FB6EFA1CB6B636002E4A6A /* SDWebImageManager.m in Sources */,
+				35B6D3181CBFF2A900ADB01B /* MTLoginVC.m in Sources */,
 				35FB6F021CB6B636002E4A6A /* UIView+WebCacheOperation.m in Sources */,
 				0496595E1CBB4AF800E0707E /* MTMyViewController.m in Sources */,
 				35FB6E0C1CB6B635002E4A6A /* DACircularProgressView.m in Sources */,
@@ -2107,6 +2242,8 @@
 				35F032C41CBB3B2F00671A6D /* MTMoreCell_TextModal.m in Sources */,
 				35FB6E0A1CB6B635002E4A6A /* LWBaseResponseModel.m in Sources */,
 				35FB6F061CB6B636002E4A6A /* ZLCameraImageView.m in Sources */,
+				35B6D3B81CBFF39C00ADB01B /* MTTextButton.m in Sources */,
+				35B6D3841CBFF34D00ADB01B /* MTHomeHeadView.m in Sources */,
 				35FB6EF81CB6B636002E4A6A /* SDWebImageDownloader.m in Sources */,
 				35FB6F0C1CB6B636002E4A6A /* ZLPhotoPickerBrowserViewController.m in Sources */,
 				044398211CB8A3AF00B27C80 /* MTHeadView.m in Sources */,
@@ -2115,11 +2252,14 @@
 				35FB6EFD1CB6B636002E4A6A /* UIImage+GIF.m in Sources */,
 				350C9E961CBB3C33005C70B6 /* MTMoreCell_ButtonModal.m in Sources */,
 				35FB6E021CB6B635002E4A6A /* UIColor+Addition.m in Sources */,
+				35B6D3821CBFF34D00ADB01B /* MTAdButton.m in Sources */,
 				35FB6F0E1CB6B636002E4A6A /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
 				35FB6E091CB6B635002E4A6A /* LWBaseRequestModel.m in Sources */,
+				35B6D3191CBFF2A900ADB01B /* MTTextSearchVC.m in Sources */,
 				041892021CBFA23E00ADFE4F /* MTsortTableView.m in Sources */,
 				35FB6F141CB6B636002E4A6A /* UIViewController+Alert.m in Sources */,
 				35FB6EF31CB6B636002E4A6A /* MKAnnotationView+WebCache.m in Sources */,
+				35B6D3B61CBFF39C00ADB01B /* MTLocationCollectionCellCollectionViewCell.m in Sources */,
 				35FB6DFE1CB6B635002E4A6A /* AppDelegate.m in Sources */,
 				35FB6EEE1CB6B636002E4A6A /* LWEmotionKeyboardView.m in Sources */,
 				35FB6F121CB6B636002E4A6A /* ZLPhotoPickerDatas.m in Sources */,
@@ -2128,18 +2268,26 @@
 				35FB6EFE1CB6B636002E4A6A /* UIImage+MultiFormat.m in Sources */,
 				35FB6E041CB6B635002E4A6A /* UITextView+Addition.m in Sources */,
 				35FB6F091CB6B636002E4A6A /* ZLPhotoPickerBrowserPhoto.m in Sources */,
+				35B6D3BF1CBFF41100ADB01B /* MTHomeTableCustomCell.m in Sources */,
 				35FB6F181CB6B636002E4A6A /* ZLPhotoPickerViewController.m in Sources */,
 				35FB6F031CB6B636002E4A6A /* UIImage+ZLPhotoLib.m in Sources */,
 				35FB6EF61CB6B636002E4A6A /* SDWebImageCompat.m in Sources */,
+				35B6D3C21CBFF6DA00ADB01B /* MTTestVC.m in Sources */,
 				35DC89611CBD084200BDDB80 /* LWMessageView.m in Sources */,
+				35B6D30D1CBFF28000ADB01B /* MTHomeViewController.m in Sources */,
+				35B6D3B91CBFF39C00ADB01B /* MTTouchesBeginView.m in Sources */,
 				35FB6F1D1CB6B636002E4A6A /* ZLPhotoPickerImageView.m in Sources */,
 				049080181CBB465D00F42793 /* LWBaseViewController.m in Sources */,
+				35B6D3B51CBFF39C00ADB01B /* MTimageSearchView.m in Sources */,
+				35B6D38E1CBFF37200ADB01B /* MTTextSearchButton.m in Sources */,
+				35B6D3B31CBFF39C00ADB01B /* MTCollectionView.m in Sources */,
 				35FB6F131CB6B636002E4A6A /* ZLPhotoPickerGroup.m in Sources */,
 				0443981B1CB7DBDE00B27C80 /* MTBusineCell.m in Sources */,
 				35FB6EEF1CB6B636002E4A6A /* LWEmotionModel.m in Sources */,
 				35FB6E031CB6B635002E4A6A /* UIImage+Addition.m in Sources */,
 				35FB6EFC1CB6B636002E4A6A /* UIButton+WebCache.m in Sources */,
 				35FB6F041CB6B636002E4A6A /* UIView+ZLExtension.m in Sources */,
+				35B6D38C1CBFF37200ADB01B /* MTImageButton.m in Sources */,
 				35FB6C601CB6B612002E4A6A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
